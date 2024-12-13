@@ -1,0 +1,1022 @@
+{
+    "70": [
+        {
+            "Tag": "Specific Cell Comparison",
+            "Question": "Which type has a higher relative frequency for Reparandum Length 1-2, content-function or content-content?",
+            "Answer": "content-function",
+            "Explanation": "content-function has a relative frequency of 0.77 compared to content-content's 0.61."
+        },
+        {
+            "Tag": "Specific Condition Comparison",
+            "Question": "Which types have a relative frequency of 0.80 or higher for Reparandum Length 3-5?",
+            "Answer": "function-function",
+            "Explanation": "function-function has a relative frequency of 0.80, which meets the condition."
+        },
+        {
+            "Tag": "Difference Calculation",
+            "Question": "What is the difference in relative frequency between content-function and content-content for Reparandum Length 3-5?",
+            "Answer": "0.08",
+            "Explanation": "The difference is 0.66 (content-function) - 0.58 (content-content) = 0.08."
+        },
+        {
+            "Tag": "Ratio Calculation",
+            "Question": "What is the ratio of the relative frequency of function-function to content-function for Reparandum Length 1-2?",
+            "Answer": "1.08",
+            "Explanation": "The ratio is 0.83 (function-function) / 0.77 (content-function) = 1.08."
+        },
+        {
+            "Tag": "Change Analysis",
+            "Question": "How does the relative frequency of content-content change from Reparandum Length 1-2 to 3-5?",
+            "Answer": "-0.03",
+            "Explanation": "The change is 0.58 - 0.61 = -0.03."
+        },
+        {
+            "Tag": "Trend Comparison",
+            "Question": "Which type shows a greater decrease in relative frequency from Reparandum Length 1-2 to 3-5, content-content or content-function?",
+            "Answer": "content-content",
+            "Explanation": "content-content decreases by 0.03 while content-function decreases by 0.11."
+        },
+        {
+            "Tag": "Average/Sum Calculation",
+            "Question": "What is the average relative frequency for content-function across both Reparandum Lengths?",
+            "Answer": "0.72",
+            "Explanation": "The average is (0.77 + 0.66) / 2 = 0.72."
+        },
+        {
+            "Tag": "Maximum/Minimum Identification",
+            "Question": "Which type has the highest relative frequency for Reparandum Length 1-2?",
+            "Answer": "function-function",
+            "Explanation": "function-function has the highest relative frequency of 0.83."
+        },
+        {
+            "Tag": "Negative Answer",
+            "Question": "Are there any types with a relative frequency of 0.90 or higher?",
+            "Answer": "No",
+            "Explanation": "None of the types reach a relative frequency of 0.90."
+        },
+        {
+            "Tag": "Unanswerable",
+            "Question": "What is the total number of disfluencies analyzed in the table?",
+            "Answer": "Unanswerable",
+            "Explanation": "The table does not provide information on the total number of disfluencies."
+        },
+        {
+            "Tag": "Complex Reasoning",
+            "Question": "How does the relative frequency of correctly predicted disfluent rephrases for content-content change from reparandum lengths of 1-2 to 3-5?",
+            "Answer": "Decreased by 0.03",
+            "Explanation": "The relative frequency for content-content is 0.61 for 1-2 and 0.58 for 3-5. The change is 0.61 - 0.58 = 0.03."
+        }
+    ],
+    "71": [
+        {
+            "Tag": "Specific Cell Comparison",
+            "Question": "Which model has a higher test mean score, early text + innovations or late text + innovations?",
+            "Answer": "Late text + innovations.",
+            "Explanation": "Late text + innovations has a test mean score of 86.68, while early text + innovations has a test mean score of 86.54."
+        },
+        {
+            "Tag": "Specific Condition Comparison",
+            "Question": "Which models achieved a dev best score of 87 or higher?",
+            "Answer": "Late text + innovations and late text + raw.",
+            "Explanation": "Both late text + innovations (87.48) and late text + raw (87.05) achieved a dev best score of 87 or higher."
+        },
+        {
+            "Tag": "Difference Calculation",
+            "Question": "What is the difference in dev mean score between single text and late text + innovations?",
+            "Answer": "0.44.",
+            "Explanation": "The dev mean score for single text is 86.54 and for late text + innovations is 86.98, resulting in a difference of 0.44."
+        },
+        {
+            "Tag": "Ratio Calculation",
+            "Question": "By what percentage is the test best score of late text + innovations higher than that of single raw?",
+            "Answer": "Approximately 130.8% higher.",
+            "Explanation": "The test best score for late text + innovations is 87.02, and for single raw is 37.70, leading to a percentage increase of approximately 130.8%."
+        },
+        {
+            "Tag": "Change Analysis",
+            "Question": "How does the dev mean score change from single raw to late text + raw?",
+            "Answer": "Increases by 0.01.",
+            "Explanation": "The dev mean score for single raw is 35.00 and for late text + raw is 86.71, showing an increase of 0.01."
+        },
+        {
+            "Tag": "Trend Comparison",
+            "Question": "Which fusion approach shows a higher average test mean score, early fusion or late fusion?",
+            "Answer": "Late fusion.",
+            "Explanation": "Late fusion has an average test mean score of 86.72, while early fusion has an average of 86.45."
+        },
+        {
+            "Tag": "Average/Sum Calculation",
+            "Question": "What is the average dev best score across all models?",
+            "Answer": "80.84.",
+            "Explanation": "The average dev best score is calculated from the scores: 86.80, 37.33, 81.51, 86.65, 86.77, 86.69, 87.05, 87.48, and 87.30, resulting in an average of  80.84."
+        },
+        {
+            "Tag": "Maximum/Minimum Identification",
+            "Question": "Which model achieved the lowest test mean score?",
+            "Answer": "Single raw.",
+            "Explanation": "Single raw achieved the lowest test mean score of 35.78."
+        },
+        {
+            "Tag": "Negative Answer",
+            "Question": "Are there any models that achieved a dev mean score of 90% or higher?",
+            "Answer": "No.",
+            "Explanation": "None of the models achieved a dev mean score of 90% or higher."
+        },
+        {
+            "Tag": "Unanswerable",
+            "Question": "What is the number of features used in the late fusion models?",
+            "Answer": "Unanswerable.",
+            "Explanation": "The table does not provide information on the number of features used in the late fusion models."
+        },
+        {
+            "Tag": "Complex Reasoning",
+            "Question": "What is the ratio of the dev best F1 score of the 'late, text + innovations' model to the dev best F1 score of the 'single, innovations' model?",
+            "Answer": "Approximately 1.07.",
+            "Explanation": "The dev best F1 score for 'late, text + innovations' is 87.48 and for 'single, innovations' is 81.51. The ratio is calculated as 87.48 / 81.51."
+        }
+    ],
+    "72": [
+        {
+            "Tag": "Specific Cell Comparison",
+            "Question": "Which model has a higher accuracy in the 'agree' category, CNN-based Sentence Embedding or Our model?",
+            "Answer": "Our model.",
+            "Explanation": "Our model has an accuracy of 28.53% in the 'agree' category, while CNN-based Sentence Embedding has 24.54%."
+        },
+        {
+            "Tag": "Specific Condition Comparison",
+            "Question": "Which models achieved an accuracy of 20% or higher in the 'disagree' category?",
+            "Answer": "RNN-based Sentence Embedding and Our model.",
+            "Explanation": "RNN-based Sentence Embedding has 5.42% and Our model has 10.43%, both below 20%, so the answer is none."
+        },
+        {
+            "Tag": "Difference Calculation",
+            "Question": "What is the difference in accuracy for the 'disagree' category between CNN-based Sentence Embedding and RNN-based Sentence Embedding?",
+            "Answer": "0.14 percentage points.",
+            "Explanation": "CNN-based Sentence Embedding has 5.06% and RNN-based Sentence Embedding has 5.42%, resulting in a difference of 0.14%."
+        },
+        {
+            "Tag": "Ratio Calculation",
+            "Question": "By what percentage is Our model's accuracy in the 'unrelated' category higher than the Average of Word2vec Embedding?",
+            "Answer": "8.19% higher.",
+            "Explanation": "Our model has 82.43% and Average of Word2vec Embedding has 74.24%, which is an increase of 8.19%."
+        },
+        {
+            "Tag": "Change Analysis",
+            "Question": "What is the performance difference in the 'discuss' category between CNN-based Sentence Embedding and Our model?",
+            "Answer": "12.19 percentage points.",
+            "Explanation": "CNN-based Sentence Embedding has 53.24% and Our model has 65.43%, resulting in a difference of 12.19%."
+        },
+        {
+            "Tag": "Trend Comparison",
+            "Question": "Which model shows a larger increase in accuracy from the 'agree' to the 'discuss' category, RNN-based Sentence Embedding or Self-attention Sentence Embedding?",
+            "Answer": "RNN-based Sentence Embedding.",
+            "Explanation": "RNN-based Sentence Embedding increases from 24.42% to 69.05%, while Self-attention Sentence Embedding increases from 23.53% to 63.59%."
+        },
+        {
+            "Tag": "Average/Sum Calculation",
+            "Question": "What is the average accuracy in the 'unrelated' category for all models listed?",
+            "Answer": "78.43%.",
+            "Explanation": "The average is calculated as (74.24 + 79.53 + 65.34 + 80.34 + 82.43) / 5 = 78.43%."
+        },
+        {
+            "Tag": "Maximum/Minimum Identification",
+            "Question": "Which model achieved the highest accuracy in the 'discuss' category?",
+            "Answer": "RNN-based Sentence Embedding.",
+            "Explanation": "RNN-based Sentence Embedding has the highest accuracy of 69.05% in the 'discuss' category."
+        },
+        {
+            "Tag": "Negative Answer",
+            "Question": "Are there any models that achieved an accuracy of 90% or higher in the 'agree' category?",
+            "Answer": "No.",
+            "Explanation": "None of the models listed achieved 90% or higher in the 'agree' category."
+        },
+        {
+            "Tag": "Unanswerable",
+            "Question": "What is the training method used for Our model?",
+            "Answer": "Unanswerable.",
+            "Explanation": "The table does not provide information about the training method used for Our model."
+        },
+        {
+            "Tag": "Complex Reasoning",
+            "Question": "What is the difference between the maximum Micro F1 score and the Micro F1 score of the Average of Word2vec Embedding model?",
+            "Answer": "38.01%",
+            "Explanation": "The maximum Micro F1 score is 83.54% (Our model) and the Micro F1 score for Average of Word2vec Embedding is 45.53%. The difference is 83.54% - 45.53% = 38.01%."
+        }
+    ],
+    "73": [
+        {
+            "Tag": "Specific Cell Comparison",
+            "Question": "Which method has a higher accuracy on the APW dataset, MaxEnt-Joint or NeuralDater?",
+            "Answer": "NeuralDater.",
+            "Explanation": "NeuralDater has an accuracy of 64.1% on the APW dataset, while MaxEnt-Joint has 52.5%."
+        },
+        {
+            "Tag": "Specific Condition Comparison",
+            "Question": "Which methods achieved an accuracy of 60% or higher on the NYT dataset?",
+            "Answer": "NeuralDater, Attentive NeuralDater, AC-GCN, AD3.",
+            "Explanation": "These methods have accuracies of 58.9%, 60.1%, 60.3%, and 62.2% respectively, all above 60%."
+        },
+        {
+            "Tag": "Difference Calculation",
+            "Question": "What is the difference in accuracy between the best method AD3 and the worst method BurstySimDater on the APW dataset?",
+            "Answer": "22.3 percentage points.",
+            "Explanation": "AD3 has an accuracy of 68.2% and BurstySimDater has 45.9%, resulting in a difference of 68.2 - 45.9 = 22.3."
+        },
+        {
+            "Tag": "Ratio Calculation",
+            "Question": "By what percentage is the accuracy of AD3 on the NYT dataset higher than that of BurstySimDater?",
+            "Answer": "62.0% higher.",
+            "Explanation": "AD3 has 62.2% and BurstySimDater has 38.5%, the percentage increase is ((62.2 - 38.5) / 38.5) * 100 = 62.0%."
+        },
+        {
+            "Tag": "Change Analysis",
+            "Question": "What is the performance change of the Attentive NeuralDater model from the APW to the NYT dataset?",
+            "Answer": "Decrease of 6.1 percentage points.",
+            "Explanation": "Attentive NeuralDater has 66.2% on APW and 60.1% on NYT, resulting in a decrease of 66.2 - 60.1 = 6.1."
+        },
+        {
+            "Tag": "Trend Comparison",
+            "Question": "Which method shows a smaller performance gap between the APW and NYT datasets, NeuralDater or AC-GCN?",
+            "Answer": "NeuralDater.",
+            "Explanation": "NeuralDater has a gap of 5.2 points (64.1 - 58.9) while AC-GCN has a gap of 5.3 points (65.6 - 60.3)."
+        },
+        {
+            "Tag": "Average/Sum Calculation",
+            "Question": "What is the average accuracy of the methods listed for the APW dataset?",
+            "Answer": "57.5%.",
+            "Explanation": "The average is calculated as (45.9 + 52.5 + 64.1 + 66.2 + 63.9 + 65.6 + 68.2) / 7 = 57.5%."
+        },
+        {
+            "Tag": "Maximum/Minimum Identification",
+            "Question": "Which method achieved the lowest accuracy on the NYT dataset?",
+            "Answer": "BurstySimDater.",
+            "Explanation": "BurstySimDater has the lowest accuracy of 38.5% on the NYT dataset."
+        },
+        {
+            "Tag": "Negative Answer",
+            "Question": "Are there any methods that achieved an accuracy of 70% or higher on either dataset?",
+            "Answer": "No.",
+            "Explanation": "The highest accuracy recorded is 68.2% by AD3 on the APW dataset."
+        },
+        {
+            "Tag": "Unanswerable",
+            "Question": "What is the training time for the AD3 method?",
+            "Answer": "Unanswerable.",
+            "Explanation": "The table does not provide any information regarding the training time for any method."
+        },
+        {
+            "Tag": "Complex Reasoning",
+            "Question": "What is the difference between the maximum APW accuracy and the minimum APW accuracy among the models listed?",
+            "Answer": "22.3%",
+            "Explanation": "The maximum APW accuracy is 68.2% (AD3) and the minimum is 45.9% (BurstySimDater). The difference is calculated as 68.2% - 45.9% = 22.3%."
+        }
+    ],
+    "74": [
+        {
+            "Tag": "Specific Cell Comparison",
+            "Question": "Which model has a higher accuracy, OE-GCN or S-GCN of NeuralDater?",
+            "Answer": "OE-GCN",
+            "Explanation": "OE-GCN has an accuracy of 63.9%, while S-GCN of NeuralDater has an accuracy of 63.2%."
+        },
+        {
+            "Tag": "Specific Condition Comparison",
+            "Question": "Which models achieved an accuracy of 65% or higher?",
+            "Answer": "AC-GCN and OE-GCN",
+            "Explanation": "AC-GCN has an accuracy of 65.6% and OE-GCN has 63.9%, but only AC-GCN meets the 65% threshold."
+        },
+        {
+            "Tag": "Difference Calculation",
+            "Question": "What is the difference in accuracy between AC-GCN and T-GCN of NeuralDater?",
+            "Answer": "3.8 percentage points",
+            "Explanation": "AC-GCN has an accuracy of 65.6% and T-GCN of NeuralDater has 61.8%, resulting in a difference of 3.8 percentage points."
+        },
+        {
+            "Tag": "Ratio Calculation",
+            "Question": "By what percentage is the accuracy of AC-GCN higher than T-GCN of NeuralDater?",
+            "Answer": "6.15% higher",
+            "Explanation": "The accuracy of AC-GCN is 65.6% and T-GCN of NeuralDater is 61.8%, leading to a percentage increase of approximately 6.15%."
+        },
+        {
+            "Tag": "Change Analysis",
+            "Question": "What is the performance change from T-GCN of NeuralDater to OE-GCN?",
+            "Answer": "2.1 percentage points increase",
+            "Explanation": "OE-GCN's accuracy is 63.9% compared to T-GCN of NeuralDater's 61.8%, indicating a 2.1 percentage points increase."
+        },
+        {
+            "Tag": "Trend Comparison",
+            "Question": "Which model shows a greater improvement in accuracy, OE-GCN or S-GCN of NeuralDater compared to T-GCN of NeuralDater?",
+            "Answer": "OE-GCN",
+            "Explanation": "OE-GCN improved by 2.1 percentage points while S-GCN of NeuralDater improved by 1.4 percentage points."
+        },
+        {
+            "Tag": "Average/Sum Calculation",
+            "Question": "What is the average accuracy of the models listed in the table?",
+            "Answer": "63.6%",
+            "Explanation": "The average accuracy is calculated as (61.8 + 63.9 + 63.2 + 65.6) / 4 = 63.6%."
+        },
+        {
+            "Tag": "Maximum/Minimum Identification",
+            "Question": "Which model achieved the highest accuracy?",
+            "Answer": "AC-GCN",
+            "Explanation": "AC-GCN has the highest accuracy at 65.6% among the models listed."
+        },
+        {
+            "Tag": "Negative Answer",
+            "Question": "Did any model achieve an accuracy of 70% or higher?",
+            "Answer": "No",
+            "Explanation": "None of the models listed achieved an accuracy of 70% or higher."
+        },
+        {
+            "Tag": "Unanswerable",
+            "Question": "What is the training time for the models listed?",
+            "Answer": "Unanswerable",
+            "Explanation": "The table does not provide any information regarding the training time of the models."
+        },
+        {
+            "Tag": "Complex Reasoning",
+            "Question": "What is the percentage increase in accuracy from the 'T-GCN of NeuralDater' to the 'AC-GCN' model, and how does this compare to the increase from 'OE-GCN' to 'S-GCN of NeuralDater'?",
+            "Answer": "3.8% (T-GCN → AC-GCN), much higher than 0.7% (OE-GCN → S-GCN).",
+            "Explanation": "The accuracy of 'T-GCN of NeuralDater' is 61.8% and 'AC-GCN' is 65.6%, resulting in a difference of 3.8%. For 'OE-GCN' (63.9%) and 'S-GCN of NeuralDater' (63.2%), the difference is 0.7%."
+        }
+    ],
+    "75": [
+        {
+            "Tag": "Specific Cell Comparison",
+            "Question": "Which model has a higher F1 score for 1/1 data, JRNN or DMCNN?",
+            "Answer": "JRNN",
+            "Explanation": "JRNN has a score of 75.6 while DMCNN has a score of 74.3 for the 1/1 data."
+        },
+        {
+            "Tag": "Specific Condition Comparison",
+            "Question": "Which models achieved an F1 score of 70% or higher in the 1/N section?",
+            "Answer": "JRNN, DMCNN, CNN",
+            "Explanation": "JRNN (64.8), DMCNN (50.9), and CNN (43.1) are the models that achieved scores above 70% in the 1/N section."
+        },
+        {
+            "Tag": "Difference Calculation",
+            "Question": "What is the difference in F1 score between JRNN and CNN for the 1/1 data?",
+            "Answer": "3.1",
+            "Explanation": "JRNN has a score of 75.6 and CNN has a score of 72.5, resulting in a difference of 3.1."
+        },
+        {
+            "Tag": "Ratio Calculation",
+            "Question": "By what percentage is the F1 score of JRNN in the 1/1 section higher than that of DMCNN?",
+            "Answer": "1.75% higher",
+            "Explanation": "The F1 score of JRNN (75.6) is approximately 1.75% higher than DMCNN (74.3)."
+        },
+        {
+            "Tag": "Change Analysis",
+            "Question": "What is the change in F1 score for the model JMEE from 1/1 to 1/N?",
+            "Answer": "Decrease of 2.5",
+            "Explanation": "JMEE's score changes from 75.2 in 1/1 to 72.7 in 1/N, resulting in a decrease of 2.5."
+        },
+        {
+            "Tag": "Trend Comparison",
+            "Question": "Which model shows a larger performance gap between 1/1 and 1/N sections, JRNN or JMEE?",
+            "Answer": "JRNN",
+            "Explanation": "JRNN has a gap of 10.8 (75.6 - 64.8) while JMEE has a gap of 2.5 (75.2 - 72.7)."
+        },
+        {
+            "Tag": "Average/Sum Calculation",
+            "Question": "What is the average F1 score for the models in the 1/N section?",
+            "Answer": "51.4",
+            "Explanation": "The average F1 score for the models in the 1/N section is calculated as (50.9 + 64.8 + 72.7 + 15.5 + 36.6 + 48.7 + 55.2 + 57.6) / 8 = 51.4."
+        },
+        {
+            "Tag": "Maximum/Minimum Identification",
+            "Question": "Which model achieved the highest F1 score in the 1/N section?",
+            "Answer": "JMEE",
+            "Explanation": "JMEE achieved the highest F1 score of 72.7 in the 1/N section."
+        },
+        {
+            "Tag": "Negative Answer",
+            "Question": "Are there any models that achieved an F1 score of 80% or higher in the 1/1 section?",
+            "Answer": "No",
+            "Explanation": "No models achieved an F1 score of 80% or higher in the 1/1 section."
+        },
+        {
+            "Tag": "Unanswerable",
+            "Question": "What is the training time for the JRNN model?",
+            "Answer": "Unanswerable",
+            "Explanation": "The table does not provide any information regarding the training time for the JRNN model."
+        },
+        {
+            "Tag": "Complex Reasoning",
+            "Question": "What is the change in the F1 score for the 'JRNN' model when comparing the 1/1 and 1/N stages?",
+            "Answer": "Decreased by 10.8.",
+            "Explanation": "The F1 score for 'JRNN' in the 1/1 stage is 75.6 and in the 1/N stage is 64.8. The difference is 75.6 - 64.8 = 10.8."
+        }
+    ],
+    "76": [
+        {
+            "Tag": "Specific Cell Comparison",
+            "Question": "Which method has a higher F1 score for Trigger Classification, DMCNN or JMEE?",
+            "Answer": "JMEE",
+            "Explanation": "JMEE has an F1 score of 73.7 while DMCNN has 69.1."
+        },
+        {
+            "Tag": "Specific Condition Comparison",
+            "Question": "Which methods achieved an F1 score of 60 or higher in Argument Role?",
+            "Answer": "JMEE",
+            "Explanation": "JMEE has an F1 score of 60.3 in Argument Role, which meets the 60 or higher criteria."
+        },
+        {
+            "Tag": "Difference Calculation",
+            "Question": "What is the difference in F1 score for Trigger Identification between DMCNN and JointBeam?",
+            "Answer": "3.1 percentage points",
+            "Explanation": "DMCNN has an F1 score of 73.5 and JointBeam has 70.4, resulting in a difference of 3.1."
+        },
+        {
+            "Tag": "Ratio Calculation",
+            "Question": "By what percentage is JMEE's F1 score for Argument Role higher than JRNN's?",
+            "Answer": "8.84%",
+            "Explanation": "JMEE's F1 score is 60.3, and JRNN's is 55.4, leading to a percentage increase of ((60.3 - 55.4) / 55.4) * 100 = 8.84%."
+        },
+        {
+            "Tag": "Change Analysis",
+            "Question": "How does the F1 score for Trigger Classification change from JointBeam to JMEE?",
+            "Answer": "Increased by 6.2 percentage points",
+            "Explanation": "JointBeam has an F1 score of 67.5 and JMEE has 73.7, showing an increase of 6.2."
+        },
+        {
+            "Tag": "Trend Comparison",
+            "Question": "Which method shows a better performance trend in Trigger Identification across the models?",
+            "Answer": "DMCNN",
+            "Explanation": "DMCNN consistently has higher F1 scores compared to others in Trigger Identification."
+        },
+        {
+            "Tag": "Average/Sum Calculation",
+            "Question": "What is the average F1 score for Trigger Classification across all methods listed?",
+            "Answer": "69.96%",
+            "Explanation": "The average is calculated as (68.8 + 67.5 + 69.1 + 69.4 + 69.3 + 71.9 + 73.7) / 7 = 69.96%."
+        },
+        {
+            "Tag": "Maximum/Minimum Identification",
+            "Question": "Which method achieved the highest F1 score in Argument Identification?",
+            "Answer": "JMEE",
+            "Explanation": "JMEE has the highest F1 score of 68.4 in Argument Identification."
+        },
+        {
+            "Tag": "Negative Answer",
+            "Question": "Are there any methods that achieved an F1 score of 80% or higher in Trigger Classification?",
+            "Answer": "No",
+            "Explanation": "The highest F1 score in Trigger Classification is 76.3, which is below 80%."
+        },
+        {
+            "Tag": "Unanswerable",
+            "Question": "What is the training time for the JMEE model?",
+            "Answer": "Unanswerable",
+            "Explanation": "The table does not provide any information regarding the training time for the JMEE model."
+        },
+        {
+            "Tag": "Complex Reasoning",
+            "Question": "Which model shows the highest increase in Trigger Classification F1 score from the Cross-Event method to the JMEE method?",
+            "Answer": "JMEE with an increase of 4.9 points.",
+            "Explanation": "The Trigger Classification F1 score for Cross-Event is 68.8 and for JMEE is 73.7, resulting in an increase of 4.9 points."
+        }
+    ],
+    "77": [
+        {
+            "Tag": "Specific Cell Comparison",
+            "Question": "Which model has a higher dev accuracy, Spanish-only-LM or English-only-LM?",
+            "Answer": "English-only-LM.",
+            "Explanation": "English-only-LM has a dev accuracy of 29.3%, while Spanish-only-LM has 26.6%."
+        },
+        {
+            "Tag": "Specific Condition Comparison",
+            "Question": "Which models achieved a dev accuracy of 60% or higher?",
+            "Answer": "CS-only-LM, CS-only+vocab-LM, Fine-Tuned-LM, CS-only-disc, Fine-Tuned-disc.",
+            "Explanation": "These models have dev accuracies of 60.7%, 61.0%, 66.9%, 72.0%, and 74.2% respectively."
+        },
+        {
+            "Tag": "Difference Calculation",
+            "Question": "What is the difference in test accuracy between Fine-Tuned-disc and Fine-Tuned-LM?",
+            "Answer": "10.1 percentage points.",
+            "Explanation": "Fine-Tuned-disc has a test accuracy of 75.5% and Fine-Tuned-LM has 65.4%."
+        },
+        {
+            "Tag": "Ratio Calculation",
+            "Question": "By what percentage is the dev accuracy of CS-only-disc higher than that of Spanish-only-LM?",
+            "Answer": "Approximately 170.3% higher.",
+            "Explanation": "CS-only-disc has a dev accuracy of 72.0% compared to Spanish-only-LM's 26.6%."
+        },
+        {
+            "Tag": "Change Analysis",
+            "Question": "What is the change in dev accuracy for Fine-Tuned-disc compared to Fine-Tuned-LM?",
+            "Answer": "7.3 percentage points increase.",
+            "Explanation": "Fine-Tuned-disc has a dev accuracy of 74.2% compared to Fine-Tuned-LM's 66.9%."
+        },
+        {
+            "Tag": "Trend Comparison",
+            "Question": "Which model shows a greater improvement in dev accuracy, CS-only-disc or Fine-Tuned-disc?",
+            "Answer": "CS-only-disc.",
+            "Explanation": "CS-only-disc improved from 60.7% to 72.0% (an increase of 11.3 percentage points), while Fine-Tuned-disc improved from 66.9% to 74.2% (an increase of 7.3 percentage points)."
+        },
+        {
+            "Tag": "Average/Sum Calculation",
+            "Question": "What is the average dev accuracy of the models listed?",
+            "Answer": "Approximately 58.5%.",
+            "Explanation": "The average is calculated from the dev accuracies of all models."
+        },
+        {
+            "Tag": "Maximum/Minimum Identification",
+            "Question": "Which model achieved the lowest perplexity on the dev set?",
+            "Answer": "CS-only-LM.",
+            "Explanation": "CS-only-LM has the lowest dev perplexity of 43.20."
+        },
+        {
+            "Tag": "Negative Answer",
+            "Question": "Are there any models that achieved a test accuracy of 80% or higher?",
+            "Answer": "No, there are none.",
+            "Explanation": "The highest test accuracy reported is 75.5%."
+        },
+        {
+            "Tag": "Unanswerable",
+            "Question": "What is the training method used for the CS-only-disc model?",
+            "Answer": "Unanswerable.",
+            "Explanation": "The table does not provide information about the training method for CS-only-disc."
+        },
+        {
+            "Tag": "Complex Reasoning",
+            "Question": "Which model shows the highest increase in accuracy when comparing dev accuracy to test accuracy?",
+            "Answer": "All:CS-last-LM",
+            "Explanation": "The 'All:CS-last-LM' model has a dev accuracy of 47.8% and a test accuracy of 49.2%, showing the highest increase of 1.4%."
+        }
+    ],
+    "78": [
+        {
+            "Tag": "Specific Cell Comparison",
+            "Question": "Which model has a higher performance on the 50% train test set, CS-only or Fine-Tuned?",
+            "Answer": "Fine-Tuned.",
+            "Explanation": "Fine-Tuned has a performance of 70.1, while CS-only has 63.6."
+        },
+        {
+            "Tag": "Specific Condition Comparison",
+            "Question": "Which models achieved a performance of 70% or higher on the full train test set?",
+            "Answer": "Fine-Tuned.",
+            "Explanation": "Only Fine-Tuned achieved 75.5% on the full train test set."
+        },
+        {
+            "Tag": "Difference Calculation",
+            "Question": "What is the difference in performance between CS-only and Fine-Tuned on the 75% train dev set?",
+            "Answer": "4.2 percentage points.",
+            "Explanation": "Fine-Tuned has 73.0 and CS-only has 68.8, so the difference is 73.0 - 68.8 = 4.2."
+        },
+        {
+            "Tag": "Ratio Calculation",
+            "Question": "By what percentage is Fine-Tuned's performance on the 25% train dev set higher than CS-only's?",
+            "Answer": "16.5% higher.",
+            "Explanation": "Fine-Tuned is 68.4 and CS-only is 58.4, so the percentage increase is ((68.4 - 58.4) / 58.4) * 100 = 16.5%."
+        },
+        {
+            "Tag": "Change Analysis",
+            "Question": "What is the performance change for Fine-Tuned from the 25% train dev set to the full train test set?",
+            "Answer": "7.1 percentage points increase.",
+            "Explanation": "Fine-Tuned increased from 68.4 to 75.5, a change of 75.5 - 68.4 = 7.1."
+        },
+        {
+            "Tag": "Trend Comparison",
+            "Question": "Which model shows a greater increase in performance from the 25% train dev to the 75% train test set?",
+            "Answer": "CS-only.",
+            "Explanation": "CS-only increases by 10.4 points while Fine-Tuned increases by 4.6 points."
+        },
+        {
+            "Tag": "Average/Sum Calculation",
+            "Question": "What is the average performance of CS-only across all training percentages?",
+            "Answer": "66.5%.",
+            "Explanation": "The average is (58.4 + 58.9 + 65.2 + 63.6 + 70.8 + 68.8 + 72.0 + 70.5) / 8 = 66.5."
+        },
+        {
+            "Tag": "Maximum/Minimum Identification",
+            "Question": "Which model achieved the highest performance on the 50% train dev set?",
+            "Answer": "Fine-Tuned.",
+            "Explanation": "Fine-Tuned achieved 71.9, which is higher than CS-only's 65.2."
+        },
+        {
+            "Tag": "Negative Answer",
+            "Question": "Are there any models that achieved an accuracy of 80% or higher in the 75% train test set?",
+            "Answer": "No.",
+            "Explanation": "The highest performance in the 75% train test set is 74.2 by Fine-Tuned."
+        },
+        {
+            "Tag": "Unanswerable",
+            "Question": "What is the training time for the Fine-Tuned model?",
+            "Answer": "Unanswerable.",
+            "Explanation": "The table does not provide any information regarding training time."
+        },
+        {
+            "Tag": "Complex Reasoning",
+            "Question": "What is the difference in the 50% train test scores between the 'CS-only' and 'Fine-Tuned' models?",
+            "Answer": "8.3",
+            "Explanation": "The 50% train test score for 'CS-only' is 63.6 and for 'Fine-Tuned' is 71.9. The difference is 71.9 - 63.6 = 8.3."
+        }
+    ],
+    "79": [
+        {
+            "Tag": "Specific Cell Comparison",
+            "Question": "Which model has a higher accuracy on the dev set for code-switched sentences, CS-only-disc or Fine-Tuned-disc?",
+            "Answer": "CS-only-disc.",
+            "Explanation": "CS-only-disc has an accuracy of 75.60, while Fine-Tuned-disc has 70.80."
+        },
+        {
+            "Tag": "Specific Condition Comparison",
+            "Question": "Which models achieved an accuracy of 70% or higher on the test set for monolingual sentences?",
+            "Answer": "Fine-Tuned-disc and CS-only-disc.",
+            "Explanation": "Both Fine-Tuned-disc (75.87) and CS-only-disc (70.53) achieved accuracies above 70%."
+        },
+        {
+            "Tag": "Difference Calculation",
+            "Question": "What is the difference in accuracy on the dev set for code-switched sentences between Fine-Tuned-LM and CS-only-LM?",
+            "Answer": "4.4 percentage points.",
+            "Explanation": "Fine-Tuned-LM has 49.60 and CS-only-LM has 45.20, so the difference is 49.60 - 45.20 = 4.4."
+        },
+        {
+            "Tag": "Ratio Calculation",
+            "Question": "By what percentage is the accuracy of Fine-Tuned-disc on the test set for code-switched sentences higher than that of CS-only-disc?",
+            "Answer": "Approximately 6.40% higher.",
+            "Explanation": "Fine-Tuned-disc has 75.33 and CS-only-disc has 70.80, leading to a percentage increase of approximately 6.4%."
+        },
+        {
+            "Tag": "Change Analysis",
+            "Question": "What is the performance difference between the dev set and test set for code-switched sentences for the Fine-Tuned-disc model?",
+            "Answer": "0.27 percentage points.",
+            "Explanation": "The accuracy on the dev set is 75.60 and on the test set is 75.33, so the difference is 75.60 - 75.33 = 0.27."
+        },
+        {
+            "Tag": "Trend Comparison",
+            "Question": "Which model shows a larger performance gap between the dev set and test set for code-switched sentences, CS-only-disc or Fine-Tuned-disc?",
+            "Answer": "CS-only-disc.",
+            "Explanation": "CS-only-disc has a gap of 4.80 (75.60 - 70.80) while Fine-Tuned-disc has a gap of 0.27."
+        },
+        {
+            "Tag": "Average/Sum Calculation",
+            "Question": "What is the average accuracy on the dev set for both types of sentences across all models?",
+            "Answer": "60.3%.",
+            "Explanation": "The average is calculated as (45.20 + 49.60 + 75.60 + 70.80) / 4 = 60.3%."
+        },
+        {
+            "Tag": "Maximum/Minimum Identification",
+            "Question": "Which model achieved the highest accuracy on the test set for code-switched sentences?",
+            "Answer": "Fine-Tuned-disc.",
+            "Explanation": "Fine-Tuned-disc has the highest accuracy of 75.33 on the test set for code-switched sentences."
+        },
+        {
+            "Tag": "Negative Answer",
+            "Question": "Are there any models that achieved an accuracy of 80% or higher on the dev set for code-switched sentences?",
+            "Answer": "No.",
+            "Explanation": "The highest accuracy on the dev set for code-switched sentences is 75.60."
+        },
+        {
+            "Tag": "Unanswerable",
+            "Question": "What is the training time for the Fine-Tuned-disc model?",
+            "Answer": "Unanswerable.",
+            "Explanation": "The table does not provide any information regarding the training time of the models."
+        },
+        {
+            "Tag": "Complex Reasoning",
+            "Question": "What is the difference between the maximum accuracy on the dev set for CS-only-disc and the minimum accuracy on the test set for Fine-Tuned-LM?",
+            "Answer": "28.00%.",
+            "Explanation": "The maximum accuracy for CS-only-disc on the dev set is 75.60%, and the minimum accuracy for Fine-Tuned-LM on the test set is 47.60%. The difference is 75.60 - 47.60 = 28.00%."
+        }
+    ],
+    "80": [
+        {
+            "Tag": "Specific Cell Comparison",
+            "Question": "Which has a higher F1-score, baseline or type combined?",
+            "Answer": "type combined",
+            "Explanation": "The F1-score for baseline is 63.92, while for type combined it is 66.61."
+        },
+        {
+            "Tag": "Specific Condition Comparison",
+            "Question": "Which model achieved a recall of 60% or higher?",
+            "Answer": "type combined",
+            "Explanation": "The recall for type combined is 60.20, which meets the condition."
+        },
+        {
+            "Tag": "Difference Calculation",
+            "Question": "What is the difference in F1-score between type combined and baseline?",
+            "Answer": "2.69",
+            "Explanation": "The F1-score for type combined is 66.61 and for baseline is 63.92, so the difference is 66.61 - 63.92 = 2.69."
+        },
+        {
+            "Tag": "Ratio Calculation",
+            "Question": "By what percentage is the precision of type combined higher than that of baseline?",
+            "Answer": "2.42%",
+            "Explanation": "Precision for baseline is 72.80 and for type combined is 74.56, the percentage increase is ((74.56 - 72.80) / 72.80) * 100 = 2.42%."
+        },
+        {
+            "Tag": "Change Analysis",
+            "Question": "How much did the precision increase from baseline to type combined?",
+            "Answer": "1.76",
+            "Explanation": "The precision increased from 72.80 to 74.56, which is a change of 1.76."
+        },
+        {
+            "Tag": "Trend Comparison",
+            "Question": "Which metric shows a greater improvement from baseline to type combined, precision or recall?",
+            "Answer": "Recall",
+            "Explanation": "Precision improved by 1.76 while recall improved by 3.23."
+        },
+        {
+            "Tag": "Average/Sum Calculation",
+            "Question": "What is the average F1-score of baseline and type combined?",
+            "Answer": "65.26",
+            "Explanation": "The average F1-score is (63.92 + 66.61) / 2 = 65.26."
+        },
+        {
+            "Tag": "Maximum/Minimum Identification",
+            "Question": "What is the maximum precision achieved in the table?",
+            "Answer": "74.56",
+            "Explanation": "The maximum precision is from the type combined model, which is 74.56."
+        },
+        {
+            "Tag": "Negative Answer",
+            "Question": "Did the baseline model achieve an F1-score of 70 or higher?",
+            "Answer": "No",
+            "Explanation": "The F1-score for the baseline model is 63.92, which is below 70."
+        },
+        {
+            "Tag": "Unanswerable",
+            "Question": "What is the training method used for the models?",
+            "Answer": "Unanswerable",
+            "Explanation": "The table does not provide information about the training method used for the models."
+        },
+        {
+            "Tag": "Complex Reasoning",
+            "Question": "What is the difference in F1-scores between the 'baseline' and 'type combined' models, given that both have F1-scores above 60?",
+            "Answer": "2.69.",
+            "Explanation": "The F1-score for 'baseline' is 63.92 and for 'type combined' is 66.61, so the difference is 66.61 - 63.92 = 2.69."
+        }
+    ],
+    "81": [
+        {
+            "Tag": "Specific Cell Comparison",
+            "Question": "Which has a higher F1-score, baseline or type combined?",
+            "Answer": "Type combined.",
+            "Explanation": "Type combined has an F1-score of 94.35, while baseline has 94.03."
+        },
+        {
+            "Tag": "Specific Condition Comparison",
+            "Question": "Which model achieved a recall of 94% or higher?",
+            "Answer": "Both models achieved this.",
+            "Explanation": "Both baseline and type combined have recalls of 94.16 and 94.32, respectively."
+        },
+        {
+            "Tag": "Difference Calculation",
+            "Question": "What is the difference in Precision between type combined and baseline?",
+            "Answer": "0.49.",
+            "Explanation": "Type combined has a precision of 94.38 and baseline has 93.89, resulting in a difference of 0.49."
+        },
+        {
+            "Tag": "Ratio Calculation",
+            "Question": "By what percentage is the F1-score of type combined higher than that of baseline?",
+            "Answer": "Approximately 0.34% higher.",
+            "Explanation": "The F1-score of type combined is 94.35 and baseline is 94.03, leading to a percentage increase of about 0.34%."
+        },
+        {
+            "Tag": "Change Analysis",
+            "Question": "What is the change in Precision from baseline to type combined?",
+            "Answer": "0.49 increase.",
+            "Explanation": "The precision increased from 93.89 to 94.38, which is a change of 0.49."
+        },
+        {
+            "Tag": "Trend Comparison",
+            "Question": "Which metric shows a greater improvement from baseline to type combined, Precision or Recall?",
+            "Answer": "Precision shows a greater improvement.",
+            "Explanation": "Precision improved by 0.49 while Recall improved by 0.16."
+        },
+        {
+            "Tag": "Average/Sum Calculation",
+            "Question": "What is the average F1-score of the two models?",
+            "Answer": "94.19.",
+            "Explanation": "The average F1-score is calculated as (94.03 + 94.35) / 2 = 94.19."
+        },
+        {
+            "Tag": "Maximum/Minimum Identification",
+            "Question": "Which model has the highest Precision?",
+            "Answer": "Type combined.",
+            "Explanation": "Type combined has the highest precision at 94.38 compared to baseline's 93.89."
+        },
+        {
+            "Tag": "Negative Answer",
+            "Question": "Is there any model that achieved a recall of 95% or higher?",
+            "Answer": "No.",
+            "Explanation": "Both models have recalls below 95%."
+        },
+        {
+            "Tag": "Unanswerable",
+            "Question": "What is the training time for the type combined model?",
+            "Answer": "Unanswerable.",
+            "Explanation": "The table does not provide any information regarding training time."
+        },
+        {
+            "Tag": "Complex Reasoning",
+            "Question": "What is the percentage increase in Precision (P) from the baseline model to the type combined model?",
+            "Answer": "0.52%",
+            "Explanation": "The Precision of the baseline model is 93.89 and for the type combined model is 94.38. The increase is calculated as ((94.38 - 93.89) / 93.89) * 100, which equals approximately 0.52%."
+        }
+    ],
+    "82": [
+        {
+            "Tag": "Specific Cell Comparison",
+            "Question": "Which model has a higher Test Acc, OntoLSTM-PP or HPCD (full)?",
+            "Answer": "OntoLSTM-PP",
+            "Explanation": "OntoLSTM-PP has a Test Acc of 89.7, while HPCD (full) has 88.7."
+        },
+        {
+            "Tag": "Specific Condition Comparison",
+            "Question": "Which models achieved a Test Acc of 85% or higher?",
+            "Answer": "HPCD (full), OntoLSTM-PP, LSTM-PP (GloVe-retro)",
+            "Explanation": "All listed models have Test Acc values above 85%."
+        },
+        {
+            "Tag": "Difference Calculation",
+            "Question": "What is the absolute difference in Test Acc between OntoLSTM-PP and LSTM-PP (GloVe)?",
+            "Answer": "5.4 percentage points",
+            "Explanation": "OntoLSTM-PP has 89.7 and LSTM-PP (GloVe) has 84.3, resulting in a difference of 5.4."
+        },
+        {
+            "Tag": "Ratio Calculation",
+            "Question": "By what percentage is OntoLSTM-PP's Test Acc higher than LSTM-PP (GloVe-retro)?",
+            "Answer": "Approximately 5.8% higher",
+            "Explanation": "OntoLSTM-PP has 89.7 and LSTM-PP (GloVe-retro) has 84.8, which is a relative increase of about 5.8%."
+        },
+        {
+            "Tag": "Change Analysis",
+            "Question": "How does the Test Acc of LSTM-PP (GloVe-retro) compare to LSTM-PP (GloVe)?",
+            "Answer": "LSTM-PP (GloVe-retro) is 0.5 percentage points higher",
+            "Explanation": "LSTM-PP (GloVe-retro) has 84.8 and LSTM-PP (GloVe) has 84.3."
+        },
+        {
+            "Tag": "Trend Comparison",
+            "Question": "Which model shows the largest improvement in Test Acc compared to LSTM-PP (GloVe)?",
+            "Answer": "OntoLSTM-PP",
+            "Explanation": "OntoLSTM-PP shows a 5.4 percentage point improvement over LSTM-PP (GloVe)."
+        },
+        {
+            "Tag": "Average/Sum Calculation",
+            "Question": "What is the average Test Acc of all models listed?",
+            "Answer": "86.9%",
+            "Explanation": "The average is calculated as (88.7 + 84.3 + 84.8 + 89.7) / 4 = 86.9."
+        },
+        {
+            "Tag": "Maximum/Minimum Identification",
+            "Question": "Which model achieved the lowest Test Acc?",
+            "Answer": "LSTM-PP (GloVe)",
+            "Explanation": "LSTM-PP (GloVe) has the lowest Test Acc at 84.3."
+        },
+        {
+            "Tag": "Negative Answer",
+            "Question": "Are there any models that achieved a Test Acc of 90% or higher?",
+            "Answer": "No",
+            "Explanation": "None of the models listed achieved a Test Acc of 90% or higher."
+        },
+        {
+            "Tag": "Unanswerable",
+            "Question": "What is the number of layers in the OntoLSTM-PP model?",
+            "Answer": "Unanswerable",
+            "Explanation": "The table does not provide information about the number of layers in the models."
+        },
+        {
+            "Tag": "Complex Reasoning",
+            "Question": "Which model shows the highest Test Acc. and what is the percentage increase from the model with the lowest Test Acc.?",
+            "Answer": "89.7%, 5.4% higher.",
+            "Explanation": "OntoLSTM-PP has the highest Test Acc. of 89.7%, while LSTM-PP with GloVe has the lowest at 84.3%. The increase is 89.7% - 84.3% = 5.4%."
+        }
+    ],
+    "83": [
+        {
+            "Tag": "Specific Cell Comparison",
+            "Question": "Which system has a higher Full UAS, RBG + HPCD (full) or RBG + LSTM-PP?",
+            "Answer": "RBG + HPCD (full).",
+            "Explanation": "RBG + HPCD (full) has a Full UAS of 94.19, while RBG + LSTM-PP has 94.14."
+        },
+        {
+            "Tag": "Specific Condition Comparison",
+            "Question": "Which systems achieved a PPA Acc. of 90% or higher?",
+            "Answer": "RBG + HPCD (full), RBG + OntoLSTM-PP, RBG + Oracle PP.",
+            "Explanation": "These systems have PPA Acc. values of 89.59, 90.11, and 98.97 respectively."
+        },
+        {
+            "Tag": "Difference Calculation",
+            "Question": "What is the difference in Full UAS between RBG + Oracle PP and RBG?",
+            "Answer": "0.43 percentage points.",
+            "Explanation": "RBG + Oracle PP has a Full UAS of 94.60, while RBG has 94.17."
+        },
+        {
+            "Tag": "Ratio Calculation",
+            "Question": "By what percentage is the PPA Acc. of RBG + Oracle PP higher than RBG + LSTM-PP?",
+            "Answer": "Approximately 14.0% higher.",
+            "Explanation": "PPA Acc. for RBG + Oracle PP is 98.97 and for RBG + LSTM-PP is 86.35, leading to a percentage increase of about 14.0%."
+        },
+        {
+            "Tag": "Change Analysis",
+            "Question": "What is the change in PPA Acc. from RBG to RBG + Oracle PP?",
+            "Answer": "10.46 percentage points increase.",
+            "Explanation": "The PPA Acc. for RBG is 88.51 and for RBG + Oracle PP is 98.97."
+        },
+        {
+            "Tag": "Trend Comparison",
+            "Question": "Which system shows the largest improvement in PPA Acc. compared to RBG?",
+            "Answer": "RBG + Oracle PP.",
+            "Explanation": "RBG + Oracle PP shows a 10.46 percentage points improvement over RBG."
+        },
+        {
+            "Tag": "Average/Sum Calculation",
+            "Question": "What is the average Full UAS of all systems listed?",
+            "Answer": "94.24.",
+            "Explanation": "The average is calculated as (94.17 + 94.19 + 94.14 + 94.30 + 94.60) / 5."
+        },
+        {
+            "Tag": "Maximum/Minimum Identification",
+            "Question": "Which system achieved the highest PPA Acc.?",
+            "Answer": "RBG + Oracle PP.",
+            "Explanation": "RBG + Oracle PP has the highest PPA Acc. of 98.97."
+        },
+        {
+            "Tag": "Negative Answer",
+            "Question": "Are there any systems with a Full UAS below 94.0?",
+            "Answer": "No.",
+            "Explanation": "All systems have Full UAS values above 94.0."
+        },
+        {
+            "Tag": "Unanswerable",
+            "Question": "What is the training time for the RBG + OntoLSTM-PP model?",
+            "Answer": "Unanswerable.",
+            "Explanation": "The table does not provide information on training time."
+        },
+        {
+            "Tag": "Complex Reasoning",
+            "Question": "Which system has the highest Full UAS score among those that show an increase in PPA Acc from RBG to RBG + Oracle PP?",
+            "Answer": "RBG + Oracle PP.",
+            "Explanation": "The Full UAS scores for the systems are compared, and RBG + Oracle PP has the highest score of 94.60, while also showing an increase in PPA Acc."
+        }
+    ],
+    "84": [
+        {
+            "Tag": "Specific Cell Comparison",
+            "Question": "Which model has a higher PPA Acc., the full model or the model without sense priors?",
+            "Answer": "The full model.",
+            "Explanation": "The full model has a PPA Acc. of 89.7, while the model without sense priors has 88.4."
+        },
+        {
+            "Tag": "Specific Condition Comparison",
+            "Question": "Which models have a PPA Acc. lower than 88.5?",
+            "Answer": "- sense priors, - attention.",
+            "Explanation": "The models without sense priors (88.4) and without attention (87.5) both have PPA Acc. values lower than 88.5."
+        },
+        {
+            "Tag": "Difference Calculation",
+            "Question": "What is the difference in PPA Acc. between the full model and the model without attention?",
+            "Answer": "2.2 percentage points.",
+            "Explanation": "The full model has 89.7 and the model without attention has 87.5, so the difference is 89.7 - 87.5 = 2.2."
+        },
+        {
+            "Tag": "Ratio Calculation",
+            "Question": "What is the percentage decrease in PPA Acc. when moving from the full model to the model without sense priors?",
+            "Answer": "1.45% decrease.",
+            "Explanation": "The decrease is calculated as ((89.7 - 88.4) / 89.7) * 100 = 1.45%."
+        },
+        {
+            "Tag": "Change Analysis",
+            "Question": "How does the PPA Acc. change from the full model to the model without attention?",
+            "Answer": "It decreases.",
+            "Explanation": "The PPA Acc. drops from 89.7 to 87.5 when attention is removed."
+        },
+        {
+            "Tag": "Trend Comparison",
+            "Question": "Which model shows a larger decrease in PPA Acc., the model without sense priors or the model without attention?",
+            "Answer": "The model without attention.",
+            "Explanation": "The model without sense priors decreases by 1.3 points, while the model without attention decreases by 2.2 points."
+        },
+        {
+            "Tag": "Average/Sum Calculation",
+            "Question": "What is the average PPA Acc. of the models without sense priors and without attention?",
+            "Answer": "87.95.",
+            "Explanation": "The average is calculated as (88.4 + 87.5) / 2 = 87.95."
+        },
+        {
+            "Tag": "Maximum/Minimum Identification",
+            "Question": "Which model achieved the lowest PPA Acc.?",
+            "Answer": "- attention.",
+            "Explanation": "The model without attention has the lowest PPA Acc. of 87.5."
+        },
+        {
+            "Tag": "Negative Answer",
+            "Question": "Is there any model that achieved a PPA Acc. of 90% or higher?",
+            "Answer": "No.",
+            "Explanation": "None of the models reached a PPA Acc. of 90% or higher."
+        },
+        {
+            "Tag": "Unanswerable",
+            "Question": "What is the training method used for the full model?",
+            "Answer": "Unanswerable.",
+            "Explanation": "The table does not provide information about the training method used for the full model."
+        },
+        {
+            "Tag": "Complex Reasoning",
+            "Question": "What is the percentage decrease in PPA Acc. from the full model to the model without sense priors?",
+            "Answer": "1.45%",
+            "Explanation": "The PPA Acc. for the full model is 89.7 and for the model without sense priors is 88.4. The difference is 89.7 - 88.4 = 1.3. The percentage decrease is (1.3 / 89.7) * 100 = 1.45%."
+        }
+    ]
+}

@@ -1,0 +1,1022 @@
+{
+    "85": [
+        {
+            "Tag": "Specific Cell Comparison",
+            "Question": "Which model has a higher BLEU score for the en-fr, flickr16 dataset, +ensemble-of-3 or +domain-tuned?",
+            "Answer": "+ensemble-of-3",
+            "Explanation": "+ensemble-of-3 has a score of 66.5 while +domain-tuned has a score of 66.1."
+        },
+        {
+            "Tag": "Specific Condition Comparison",
+            "Question": "Which models achieved a BLEU score of 50% or higher in the mscoco17 dataset?",
+            "Answer": "+domain-tuned and +ensemble-of-3",
+            "Explanation": "+domain-tuned has a score of 51.7 and +ensemble-of-3 has a score of 51.6."
+        },
+        {
+            "Tag": "Difference Calculation",
+            "Question": "What is the difference in BLEU score between +subsfull and multi30k for the en-de, flickr16 dataset?",
+            "Answer": 2.4,
+            "Explanation": "+subsfull has a score of 41.3 and multi30k has a score of 38.9, resulting in a difference of 2.4."
+        },
+        {
+            "Tag": "Ratio Calculation",
+            "Question": "By what percentage is the BLEU score of +ensemble-of-3 in the en-fr, flickr17 dataset higher than that of multi30k?",
+            "Answer": "Approximately 23.1% higher.",
+            "Explanation": "+ensemble-of-3 has a score of 60.2 and multi30k has a score of 54.0, which is a percentage increase of about 23.1%."
+        },
+        {
+            "Tag": "Change Analysis",
+            "Question": "What is the performance change in BLEU score for the en-fr, flickr16 dataset from multi30k to +domain-tuned?",
+            "Answer": 4.7,
+            "Explanation": "+domain-tuned has a score of 66.1 and multi30k has a score of 61.4, resulting in a change of 4.7."
+        },
+        {
+            "Tag": "Trend Comparison",
+            "Question": "Which dataset shows a larger increase in BLEU score from +subsfull to +ensemble-of-3, en-fr or en-de?",
+            "Answer": "en-fr",
+            "Explanation": "In en-fr, the increase is 12.8 (from 53.7 to 66.5) while in en-de, the increase is 2.6 (from 41.3 to 43.9)."
+        },
+        {
+            "Tag": "Average/Sum Calculation",
+            "Question": "What is the average BLEU score for the en-fr datasets across all models?",
+            "Answer": 55.3,
+            "Explanation": "The average is calculated as (61.4 + 53.7 + 66.1 + 66.5) / 4 = 55.3."
+        },
+        {
+            "Tag": "Maximum/Minimum Identification",
+            "Question": "Which model achieved the highest BLEU score in the en-de, mscoco17 dataset?",
+            "Answer": "+ensemble-of-3",
+            "Explanation": "+ensemble-of-3 has the highest score of 37.0."
+        },
+        {
+            "Tag": "Negative Answer",
+            "Question": "Are there any models that achieved a BLEU score of 70% or higher in the en-fr datasets?",
+            "Answer": "No",
+            "Explanation": "None of the models reached a score of 70% or higher."
+        },
+        {
+            "Tag": "Unanswerable",
+            "Question": "What is the total number of experiments conducted with Marian?",
+            "Answer": "Unanswerable",
+            "Explanation": "The table does not provide information on the total number of experiments conducted."
+        },
+        {
+            "Tag": "Complex Reasoning",
+            "Question": "What is the difference between the maximum BLEU score in the flickr16 column and the minimum BLEU score in the mscoco17 column?",
+            "Answer": "38.8 points.",
+            "Explanation": "The maximum BLEU score in the flickr16 column is 66.5 (from +ensemble-of-3) and the minimum BLEU score in the mscoco17 column is 27.7 (from multi30k). The difference is 66.5 - 27.7 = 38.8."
+        }
+    ],
+    "86": [
+        {
+            "Tag": "Specific Cell Comparison",
+            "Question": "Which model has a higher BLEU score for the en-fr flickr16 dataset, A +domain-tuned or T +labels?",
+            "Answer": "A, +labels",
+            "Explanation": "A, +labels has the highest BLEU score of 67.2."
+        },
+        {
+            "Tag": "Specific Condition Comparison",
+            "Question": "Which models achieved a BLEU score of 60% or higher in the en-fr flickr17 dataset?",
+            "Answer": "A, +domain-tuned and T, +labels",
+            "Explanation": "Both A, +domain-tuned (60.6) and T, +labels (60.9) achieved scores above 60%."
+        },
+        {
+            "Tag": "Difference Calculation",
+            "Question": "What is the difference in BLEU score for the en-de flickr16 dataset between T, subs1M and T, +labels?",
+            "Answer": "0.3",
+            "Explanation": "T, +labels has a score of 44.1 and T, subs1M has a score of 44.4, resulting in a difference of 0.3."
+        },
+        {
+            "Tag": "Ratio Calculation",
+            "Question": "By what percentage is the BLEU score of A, +labels in the en-fr flickr16 dataset higher than A, subs1M?",
+            "Answer": "1.36%",
+            "Explanation": "The BLEU score for A, +labels is 67.2, and for A, subs1M it is 66.3, resulting in a 1.36% increase."
+        },
+        {
+            "Tag": "Change Analysis",
+            "Question": "What is the performance change in BLEU score for the A model from the en-fr flickr16 to the en-de flickr16 dataset?",
+            "Answer": "-23.2",
+            "Explanation": "The score for A in en-fr flickr16 is 66.3 and in en-de flickr16 is 43.1, resulting in a change of -23.2."
+        },
+        {
+            "Tag": "Trend Comparison",
+            "Question": "Which model shows the greater increase in BLEU score between flickr16 and flickr17 in the en-fr dataset?",
+            "Answer": "T, +labels",
+            "Explanation": "T, +labels shows an increase from 60.3 (flickr16) to 60.9 (flickr17), which is an increase of 0.6 points. Other models in the en-fr dataset either show a smaller increase or a decrease in BLEU score."
+        },
+        {
+            "Tag": "Average/Sum Calculation",
+            "Question": "What is the average BLEU score for the A model across all datasets in the en-fr section?",
+            "Answer": "66.8",
+            "Explanation": "The average of A's scores (66.3, 66.8, 67.2) is 66.8."
+        },
+        {
+            "Tag": "Maximum/Minimum Identification",
+            "Question": "Which model achieved the highest BLEU score in the en-de flickr17 dataset?",
+            "Answer": "T, +labels",
+            "Explanation": "T, +labels achieved the highest score of 36.5 in the en-de flickr17 dataset."
+        },
+        {
+            "Tag": "Negative Answer",
+            "Question": "Are there any models that achieved a BLEU score of 70% or higher in the en-fr flickr16 dataset?",
+            "Answer": "No",
+            "Explanation": "The highest score in the en-fr flickr16 dataset is 67.2, which is below 70%."
+        },
+        {
+            "Tag": "Unanswerable",
+            "Question": "What is the number of parameters in the A model?",
+            "Answer": "Unanswerable",
+            "Explanation": "The table does not provide information about the number of parameters in the A model."
+        },
+        {
+            "Tag": "Complex Reasoning",
+            "Question": "What is the difference between the maximum BLEU score in the 'A' models and the minimum BLEU score in the 'T' models for the mscoco17 dataset?",
+            "Answer": "17.1.",
+            "Explanation": "The maximum BLEU score for 'A' models is 52.1 and the minimum for 'T' models is 35.0, leading to a difference of 15.5."
+        }
+    ],
+    "87": [
+        {
+            "Tag": "Specific Cell Comparison",
+            "Question": "Which model has a higher BLEU score for flickr16 in the en-fr dataset, +autocap 1-5 (concat) or multi30k?",
+            "Answer": "+autocap 1-5 (concat).",
+            "Explanation": "+autocap 1-5 (concat) has a score of 62.2, while multi30k has a score of 61.4."
+        },
+        {
+            "Tag": "Specific Condition Comparison",
+            "Question": "Which models achieved a BLEU score of 60% or higher in the en-fr dataset?",
+            "Answer": "+autocap 1-5 (concat) and +autocap 1 (concat).",
+            "Explanation": "+autocap 1-5 (concat) has a score of 62.2 and +autocap 1 (concat) has a score of 61.7."
+        },
+        {
+            "Tag": "Difference Calculation",
+            "Question": "What is the difference in BLEU score for flickr17 between +autocap 1-5 (concat) and +autocap (dual attn.) in the en-fr dataset?",
+            "Answer": "22.4 percentage points.",
+            "Explanation": "+autocap 1-5 (concat) has a score of 54.4 and +autocap (dual attn.) has a score of 32.0."
+        },
+        {
+            "Tag": "Ratio Calculation",
+            "Question": "By what percentage is the BLEU score for +autocap 1 (concat) in the mscoco17 dataset higher than that of +autocap (dual attn.)?",
+            "Answer": "1.39%.",
+            "Explanation": "The BLEU score for +autocap 1 (concat) is 43.9, and for +autocap (dual attn.) it is 43.3, resulting in a 1.39% increase."
+        },
+        {
+            "Tag": "Change Analysis",
+            "Question": "What is the performance change in BLEU score for the multi30k model from flickr16 to mscoco17 in the en-fr dataset?",
+            "Answer": "18.3 percentage points decrease.",
+            "Explanation": "The score drops from 61.4 (flickr16) to 43.1 (mscoco17), resulting in a decrease of 18.3 points."
+        },
+        {
+            "Tag": "Trend Comparison",
+            "Question": "Which model shows a smaller performance gap between flickr16 and flickr17 in the en-de dataset, +autocap 1 (concat) or +autocap 1-5 (concat)?",
+            "Answer": "multi30k",
+            "Explanation": "The gap for multi30k is the smallest at 6.9."
+        },
+        {
+            "Tag": "Average/Sum Calculation",
+            "Question": "What is the average BLEU score for the +autocap models in the en-fr dataset across all datasets?",
+            "Answer": "53.0.",
+            "Explanation": "The average BLEU score is calculated as (60.9+62.2+61.7)/3=53.0(60.9 + 62.2 + 61.7) / 3 = 53.0(60.9+62.2+61.7)/3=53.0."
+        },
+        {
+            "Tag": "Maximum/Minimum Identification",
+            "Question": "Which model achieved the highest BLEU score in the mscoco17 dataset?",
+            "Answer": "+autocap 1-5 (concat).",
+            "Explanation": "+autocap 1-5 (concat) has the highest score of 44.1 in the mscoco17 dataset."
+        },
+        {
+            "Tag": "Negative Answer",
+            "Question": "Are there any models that achieved a BLEU score of 70% or higher in the en-fr dataset?",
+            "Answer": "No.",
+            "Explanation": "None of the models reached a score of 70% or higher."
+        },
+        {
+            "Tag": "Unanswerable",
+            "Question": "What is the training method used for the models listed in the table?",
+            "Answer": "Unanswerable.",
+            "Explanation": "The table does not provide information about the training methods used for the models."
+        },
+        {
+            "Tag": "Complex Reasoning",
+            "Question": "What is the difference between the maximum BLEU score in flickr17 and the minimum BLEU score in the same dataset?",
+            "Answer": "2.0 points.",
+            "Explanation": "The BLEU scores for the flickr17 dataset are analyzed separately for EN-FR and EN-DE, as they represent different language pairs. For EN-FR, the maximum BLEU score is 54.4 (+autocap 1-5 (concat)) and the minimum BLEU score is 52.9 (+autocap (dual attn.)), resulting in a difference of 54.4 - 52.9 = 1.5. For EN-DE, the maximum BLEU score is 32.2 (+autocap 1 (concat)) and the minimum BLEU score is 30.2 (+autocap (dual attn.)), resulting in a difference of 32.2 - 30.2 = 2.0. Since the question does not specify a language pair, the largest difference across both language pairs is reported, which is 2.0 points for EN-DE."
+        }
+    ],
+    "88": [
+        {
+            "Tag": "Specific Cell Comparison",
+            "Question": "Which model has a higher BLEU score for the en-fr, flickr16 dataset, IMG W or enc-gate?",
+            "Answer": "IMG W",
+            "Explanation": "IMG W has a score of 68.30, while enc-gate has a score of 68.01."
+        },
+        {
+            "Tag": "Specific Condition Comparison",
+            "Question": "Which models achieved a BLEU score of 60% or higher in the en-fr, flickr17 dataset?",
+            "Answer": "IMG W, enc-gate, dec-gate, enc-gate + dec-gate",
+            "Explanation": "All these models have scores above 60% in the en-fr, flickr17 dataset."
+        },
+        {
+            "Tag": "Difference Calculation",
+            "Question": "What is the difference in BLEU score between the best performing model IMG W and the dec-gate model for the en-de, flickr16 dataset?",
+            "Answer": "0.12",
+            "Explanation": "IMG W has a score of 45.09, and dec-gate has a score of 45.21, resulting in a difference of 0.12."
+        },
+        {
+            "Tag": "Ratio Calculation",
+            "Question": "By what percentage is the BLEU score of enc-gate + dec-gate in the en-fr, mscoco17 dataset higher than that of dec-gate?",
+            "Answer": "1.15% higher",
+            "Explanation": "The BLEU score for enc-gate + dec-gate is 52.98, and for dec-gate it is 52.38, resulting in a percentage increase of 1.15%."
+        },
+        {
+            "Tag": "Change Analysis",
+            "Question": "What is the performance change in BLEU scores for the IMG W model from the en-fr, flickr16 to en-fr, mscoco17 datasets?",
+            "Answer": "-15.44",
+            "Explanation": "The score changes from 68.30 to 52.86, resulting in a decrease of 15.44."
+        },
+        {
+            "Tag": "Trend Comparison",
+            "Question": "Which model shows a more consistent performance across the datasets in the en-fr category, enc-gate or dec-gate?",
+            "Answer": "enc-gate",
+            "Explanation": "enc-gate has scores of 68.01, 61.38, and 53.40, while dec-gate has scores of 67.99, 61.53, and 52.38, showing less variation."
+        },
+        {
+            "Tag": "Average/Sum Calculation",
+            "Question": "What is the average BLEU score for the IMG W model across all datasets?",
+            "Answer": "51.08",
+            "Explanation": "The average BLEU score is calculated as (68.30+62.45+52.86+45.09+40.81+36.94)/6=51.08(68.30 + 62.45 + 52.86 + 45.09 + 40.81 + 36.94) / 6 = 51.08(68.30+62.45+52.86+45.09+40.81+36.94)/6=51.08."
+        },
+        {
+            "Tag": "Maximum/Minimum Identification",
+            "Question": "Which model achieved the highest BLEU score in the en-de, flickr17 dataset?",
+            "Answer": "dec-gate",
+            "Explanation": "dec-gate achieved the highest score of 41.44 in the en-de, flickr17 dataset."
+        },
+        {
+            "Tag": "Negative Answer",
+            "Question": "Are there any models that achieved a BLEU score of 70% or higher in the en-fr, flickr16 dataset?",
+            "Answer": "No",
+            "Explanation": "The highest score in that dataset is 68.30, which is below 70%."
+        },
+        {
+            "Tag": "Unanswerable",
+            "Question": "What is the total number of models evaluated in the table?",
+            "Answer": "Unanswerable",
+            "Explanation": "The table does not provide a total count of models."
+        },
+        {
+            "Tag": "Complex Reasoning",
+            "Question": "What is the change in BLEU score from the flickr16 column to the mscoco17 column for the 'IMG [ITALIC] W' model in the EN-FR dataset?",
+            "Answer": "15.44 points",
+            "Explanation": "The 'IMG [ITALIC] W' model in the EN-FR dataset has a BLEU score of 68.30 in the flickr16 column and 52.86 in the mscoco17 column. The change is calculated as 68.30 - 52.86 = 15.44 points."
+        }
+    ],
+    "89": [
+        {
+            "Tag": "Specific Cell Comparison",
+            "Question": "Which model has a higher BLEU score for en-fr with 3M sentences, subs3M LM detectron or subs3M LM gn2048?",
+            "Answer": "subs3M LM detectron",
+            "Explanation": "subs3M LM detectron has a BLEU score of 68.30, while subs3M LM gn2048 has a score of 67.74."
+        },
+        {
+            "Tag": "Specific Condition Comparison",
+            "Question": "Which models achieved a BLEU score of 68 or higher in the en-fr section?",
+            "Answer": "subs3M LM detectron, +ensemble-of-3, −visual features",
+            "Explanation": "These models have BLEU scores of 68.30, 68.72, and 68.74 respectively."
+        },
+        {
+            "Tag": "Difference Calculation",
+            "Question": "What is the difference in BLEU score for the en-fr section between subs3M LM detectron and subs3M LM text-only?",
+            "Answer": "0.58",
+            "Explanation": "The BLEU score for subs3M LM detectron is 68.30 and for subs3M LM text-only is 67.72, resulting in a difference of 0.58."
+        },
+        {
+            "Tag": "Ratio Calculation",
+            "Question": "By what percentage is the BLEU score of subs3M LM detectron in en-fr higher than that of subs3M LM text-only?",
+            "Answer": "Approximately 0.85%",
+            "Explanation": "The percentage increase is calculated as ((68.30 - 67.72) / 67.72) * 100."
+        },
+        {
+            "Tag": "Change Analysis",
+            "Question": "What is the performance change in BLEU score for the en-fr section when moving from subs3M LM detectron to subs6M LM detectron?",
+            "Answer": "-0.01",
+            "Explanation": "The BLEU score for subs3M LM detectron is 68.30 and for subs6M LM detectron is 68.29, indicating a decrease of 0.01."
+        },
+        {
+            "Tag": "Trend Comparison",
+            "Question": "Which model shows a larger performance drop in the en-de section when visual features are removed, subs3M LM detectron or subs6M LM detectron?",
+            "Answer": "subs3M LM detectron",
+            "Explanation": "Removing visual features from subs3M LM detectron results in a drop from 45.09 to 45.59, while for subs6M LM detectron it drops from 45.50 to 45.50."
+        },
+        {
+            "Tag": "Average/Sum Calculation",
+            "Question": "What is the average BLEU score for the en-fr section across all models listed?",
+            "Answer": "67.83",
+            "Explanation": "The average is calculated by summing the BLEU scores and dividing by the number of models."
+        },
+        {
+            "Tag": "Maximum/Minimum Identification",
+            "Question": "Which model achieved the highest BLEU score in the en-de section?",
+            "Answer": "−visual features",
+            "Explanation": "The highest BLEU score in the en-de section is 45.59 from the model with visual features removed."
+        },
+        {
+            "Tag": "Negative Answer",
+            "Question": "Are there any models that achieved a BLEU score of 70% or higher in the en-fr section?",
+            "Answer": "No",
+            "Explanation": "The highest BLEU score recorded is 68.74, which is below 70%."
+        },
+        {
+            "Tag": "Unanswerable",
+            "Question": "What is the training data size for the subs3M LM detectron model?",
+            "Answer": "Unanswerable",
+            "Explanation": "The table does not provide information about the training data size for the models."
+        },
+        {
+            "Tag": "Complex Reasoning",
+            "Question": "What is the difference in BLEU scores between the 'subs3M LM detectron' model and the 'subs3M LM text-only' model when both are evaluated on the flickr16 dataset?",
+            "Answer": "0.58",
+            "Explanation": "The BLEU score for 'subs3M LM detectron' on flickr16 is 62.45, and for 'subs3M LM text-only' it is 61.75. The difference is 62.45 - 61.75 = 0.58."
+        }
+    ],
+    "90": [
+        {
+            "Tag": "Specific Cell Comparison",
+            "Question": "Which model has a higher Yule's I value, en-fr-smt-back or en-es-smt-back?",
+            "Answer": "en-es-smt-back.",
+            "Explanation": "en-es-smt-back has a Yule's I value of 3.2166, while en-fr-smt-back has a value of 2.7496."
+        },
+        {
+            "Tag": "Specific Condition Comparison",
+            "Question": "Which models have a TTR value greater than 120?",
+            "Answer": "en-fr-smt-back, en-fr-trans-back.",
+            "Explanation": "Both en-fr-smt-back and en-fr-trans-back have TTR values of 120.9909 and 121.5801 respectively."
+        },
+        {
+            "Tag": "Difference Calculation",
+            "Question": "What is the difference in MTLD between en-fr-HT and en-es-HT?",
+            "Answer": "28.0916.",
+            "Explanation": "The MTLD for en-fr-HT is 127.1766 and for en-es-HT is 99.0850, resulting in a difference of 28.0916."
+        },
+        {
+            "Tag": "Ratio Calculation",
+            "Question": "By what percentage is the TTR of en-fr-smt-ff higher than that of en-es-smt-ff?",
+            "Answer": "17.88%.",
+            "Explanation": "The TTR for en-fr-smt-ff is 2.6442, and for en-es-smt-ff is 3.1170, leading to a percentage increase of 17.88%."
+        },
+        {
+            "Tag": "Change Analysis",
+            "Question": "How does the MTLD value change from en-fr-smt-ff to en-fr-smt-back?",
+            "Answer": "Increases by 1.8403.",
+            "Explanation": "The MTLD for en-fr-smt-ff is 118.1239 and for en-fr-smt-back is 120.9909, showing an increase of 1.8403."
+        },
+        {
+            "Tag": "Trend Comparison",
+            "Question": "Which language pair shows a greater increase in Yule's I from the forward to the backward model, en-fr or en-es?",
+            "Answer": "en-fr.",
+            "Explanation": "en-fr shows an increase of 1.1246 (from 6.7492 to 7.8738)."
+        },
+        {
+            "Tag": "Average/Sum Calculation",
+            "Question": "What is the average TTR value for the en-fr models?",
+            "Answer": "Approximately 115.885.",
+            "Explanation": "The TTR values for en-fr models are 2.9277, 109.4506, 118.1239, 120.5179, 116.8942, and 120.9909, averaging to approximately 115.885."
+        },
+        {
+            "Tag": "Maximum/Minimum Identification",
+            "Question": "Which model has the highest MTLD value?",
+            "Answer": "en-fr-HT.",
+            "Explanation": "en-fr-HT has the highest MTLD value of 127.1766."
+        },
+        {
+            "Tag": "Negative Answer",
+            "Question": "Are there any models with a Yule's I value of 10 or higher?",
+            "Answer": "No.",
+            "Explanation": "The highest Yule's I value in the table is 9.2793, which is below 10."
+        },
+        {
+            "Tag": "Unanswerable",
+            "Question": "What is the lexical richness metric for the model en-fr-rnn-ff?",
+            "Answer": "Unanswerable.",
+            "Explanation": "The table does not provide a lexical richness metric for the en-fr-rnn-ff model."
+        },
+        {
+            "Tag": "Complex Reasoning",
+            "Question": "What is the difference in Yule's I scores between the highest scoring models in the 'en-fr' and 'en-es' groups, excluding 'en-fr-HT' and 'en-es-HT'?",
+            "Answer": "0.2587",
+            "Explanation": "In the 'en-fr' group, excluding 'en-fr-HT', the highest Yule's I score is for 'en-fr-smt-back' with 7.8738. In the 'en-es' group, excluding 'en-es-HT', the highest Yule's I score is for 'en-es-smt-back' with 8.1325. The difference is calculated as 8.1325 - 7.8738 = 0.2587."
+        }
+    ],
+    "91": [
+        {
+            "Tag": "Specific Cell Comparison",
+            "Question": "Which language pair has a higher number of training sentences, EN–FR or EN–ES?",
+            "Answer": "EN–ES",
+            "Explanation": "EN–ES has 1,472,203 training sentences compared to EN–FR's 1,467,489."
+        },
+        {
+            "Tag": "Specific Condition Comparison",
+            "Question": "Which language pair has a test set size of less than 500,000 sentences?",
+            "Answer": "EN–ES",
+            "Explanation": "EN–ES has 459,633 test sentences, which is less than 500,000."
+        },
+        {
+            "Tag": "Difference Calculation",
+            "Question": "What is the difference in the number of development sentences between EN–FR and EN–ES?",
+            "Answer": "1,989",
+            "Explanation": "EN–FR has 7,723 and EN–ES has 5,734 development sentences, resulting in a difference of 1,989."
+        },
+        {
+            "Tag": "Ratio Calculation",
+            "Question": "What is the ratio of training sentences in EN–FR to EN–ES?",
+            "Answer": "0.997",
+            "Explanation": "The ratio is calculated as 1,467,489/1,472,203=0.9971,467,489 / 1,472,203 = 0.9971,467,489/1,472,203=0.997."
+        },
+        {
+            "Tag": "Change Analysis",
+            "Question": "How does the number of test sentences compare to the number of training sentences for the EN–FR language pair?",
+            "Answer": "The test sentences are significantly fewer.",
+            "Explanation": "EN–FR has 499,487 test sentences compared to 1,467,489 training sentences."
+        },
+        {
+            "Tag": "Trend Comparison",
+            "Question": "Which language pair has a larger gap between training and test sentences, EN–FR or EN–ES?",
+            "Answer": "EN–ES",
+            "Explanation": "EN–ES: Gap is 1,472,203−459,633=1,012,5701,472,203 - 459,633 = 1,012,5701,472,203−459,633=1,012,570. EN–ES has a larger gap between training and test sentences."
+        },
+        {
+            "Tag": "Average/Sum Calculation",
+            "Question": "What is the total number of sentences across all splits for the EN–FR language pair?",
+            "Answer": "1,974,699",
+            "Explanation": "The total is calculated as 1,467,489 (train) + 499,487 (test) + 7,723 (dev)."
+        },
+        {
+            "Tag": "Maximum/Minimum Identification",
+            "Question": "Which language pair has the highest number of training sentences?",
+            "Answer": "EN–ES",
+            "Explanation": "EN–ES has the highest training sentences at 1,472,203."
+        },
+        {
+            "Tag": "Negative Answer",
+            "Question": "Are there any language pairs with more than 2 million training sentences?",
+            "Answer": "No",
+            "Explanation": "Both language pairs have fewer than 2 million training sentences."
+        },
+        {
+            "Tag": "Unanswerable",
+            "Question": "What is the total number of sentences used in the Europarl corpora?",
+            "Answer": "Unanswerable",
+            "Explanation": "The table does not provide the total number of sentences in the Europarl corpora."
+        },
+        {
+            "Tag": "Complex Reasoning",
+            "Question": "What is the ratio of the number of training sentences in the EN–FR pair to the number of training sentences in the EN–ES pair, and how does this ratio compare to the trend of the number of test sentences in both pairs?",
+            "Answer": "Approximately 1.00, EN–FR has more test sentences.",
+            "Explanation": "The training sentences for EN–FR are 1,467,489 and for EN–ES are 1,472,203, giving a ratio of approximately 1.00. The test sentences are 499,487 for EN–FR and 459,633 for EN–ES, showing a trend where EN–FR has more test sentences."
+        }
+    ],
+    "92": [
+        {
+            "Tag": "Specific Cell Comparison",
+            "Question": "Which language pair has a higher source vocabulary size, EN–FR or EN–ES?",
+            "Answer": "EN–ES",
+            "Explanation": "EN–ES has a source vocabulary size of 113,692, which is higher than EN–FR's 113,132."
+        },
+        {
+            "Tag": "Specific Condition Comparison",
+            "Question": "Which language pairs have a target vocabulary size greater than 130,000?",
+            "Answer": "EN–FR and EN–ES",
+            "Explanation": "Both EN–FR (131,104) and EN–ES (168,195) have target vocabulary sizes greater than 130,000."
+        },
+        {
+            "Tag": "Difference Calculation",
+            "Question": "What is the difference in source vocabulary size between EN–FR and EN–ES?",
+            "Answer": "560",
+            "Explanation": "The difference is calculated as 113,692 (EN–ES) - 113,132 (EN–FR) = 560."
+        },
+        {
+            "Tag": "Ratio Calculation",
+            "Question": "What is the ratio of the target vocabulary size of EN–ES to that of EN–FR?",
+            "Answer": "1.28",
+            "Explanation": "The ratio is calculated as 168,195 (EN–ES) / 131,104 (EN–FR) ≈ 1.28."
+        },
+        {
+            "Tag": "Change Analysis",
+            "Question": "How does the source vocabulary size change from EN–FR to EN–ES?",
+            "Answer": "Increases by 560",
+            "Explanation": "The source vocabulary size increases from 113,132 (EN–FR) to 113,692 (EN–ES), a change of 560."
+        },
+        {
+            "Tag": "Trend Comparison",
+            "Question": "Which language pair has a larger difference between source and target vocabulary sizes?",
+            "Answer": "EN–ES",
+            "Explanation": "EN–ES has a difference of 4,503 (168,195 - 113,692) compared to EN–FR's difference of 17,972 (131,104 - 113,132)."
+        },
+        {
+            "Tag": "Average/Sum Calculation",
+            "Question": "What is the sum of the source vocabulary sizes for both language pairs?",
+            "Answer": "226,824",
+            "Explanation": "The sum is calculated as 113,132 (EN–FR) + 113,692 (EN–ES) = 226,824."
+        },
+        {
+            "Tag": "Maximum/Minimum Identification",
+            "Question": "Which language pair has the highest target vocabulary size?",
+            "Answer": "EN–ES",
+            "Explanation": "EN–ES has the highest target vocabulary size of 168,195."
+        },
+        {
+            "Tag": "Negative Answer",
+            "Question": "Is there any language pair with a source vocabulary size of 120,000 or higher?",
+            "Answer": "No",
+            "Explanation": "Both language pairs have source vocabulary sizes above 120,000."
+        },
+        {
+            "Tag": "Unanswerable",
+            "Question": "What is the total number of training examples used for the models?",
+            "Answer": "Unanswerable",
+            "Explanation": "The table does not provide information about the total number of training examples."
+        },
+        {
+            "Tag": "Complex Reasoning",
+            "Question": "How much larger is the TRG vocabulary size for the EN–ES language pair compared to the EN–FR language pair?",
+            "Answer": "37,091.",
+            "Explanation": "The TRG vocabulary size for EN–ES is 168,195 and for EN–FR is 131,104, so the difference is 168,195 - 131,104 = 37,091."
+        }
+    ],
+    "93": [
+        {
+            "Tag": "Specific Cell Comparison",
+            "Question": "Which system has a higher BLEU score, en-fr-smt-rev or en-fr-trans-rev?",
+            "Answer": "en-fr-trans-rev",
+            "Explanation": "en-fr-trans-rev has a BLEU score of 36.8, which is higher than en-fr-smt-rev's score of 36.5."
+        },
+        {
+            "Tag": "Specific Condition Comparison",
+            "Question": "Which systems achieved a BLEU score of 37 or higher?",
+            "Answer": "en-es-rnn-rev, en-es-smt-rev, en-es-trans-rev",
+            "Explanation": "These systems have BLEU scores of 37.8, 39.2, and 40.4 respectively."
+        },
+        {
+            "Tag": "Difference Calculation",
+            "Question": "What is the difference in TER between en-fr-rnn-rev and en-es-trans-rev?",
+            "Answer": "7.5",
+            "Explanation": "The TER for en-fr-rnn-rev is 50.2 and for en-es-trans-rev is 42.7, so the difference is 50.2 - 42.7 = 7.5."
+        },
+        {
+            "Tag": "Ratio Calculation",
+            "Question": "By what percentage is the BLEU score of en-es-trans-rev higher than en-fr-trans-rev?",
+            "Answer": "9.8%",
+            "Explanation": "The BLEU score of en-es-trans-rev is 40.4 and en-fr-trans-rev is 36.8. The percentage increase is ((40.4 - 36.8) / 36.8) * 100 = 9.8%."
+        },
+        {
+            "Tag": "Change Analysis",
+            "Question": "What is the change in BLEU score from en-fr-rnn-rev to en-fr-smt-rev?",
+            "Answer": "3.2",
+            "Explanation": "The BLEU score for en-fr-smt-rev is 36.5 and for en-fr-rnn-rev is 33.3, so the change is 36.5 - 33.3 = 3.2."
+        },
+        {
+            "Tag": "Trend Comparison",
+            "Question": "Which language pair shows a greater increase in BLEU scores from RNN to Transformer models, en-fr or en-es?",
+            "Answer": "en-fr",
+            "Explanation": "en-es shows an increase from 37.8 (RNN) to 40.4 (Transformer), a difference of 2.6, while en-fr shows an increase from 33.3 to 36.8, a difference of 3.5."
+        },
+        {
+            "Tag": "Average/Sum Calculation",
+            "Question": "What is the average BLEU score of all systems listed?",
+            "Answer": "37.3",
+            "Explanation": "The average BLEU score is calculated as (33.3 + 36.5 + 36.8 + 37.8 + 39.2 + 40.4) / 6 = 37.3."
+        },
+        {
+            "Tag": "Maximum/Minimum Identification",
+            "Question": "Which system achieved the lowest TER score?",
+            "Answer": "en-es-trans-rev",
+            "Explanation": "en-es-trans-rev has the lowest TER score of 42.7."
+        },
+        {
+            "Tag": "Negative Answer",
+            "Question": "Are there any systems that achieved a BLEU score of 41 or higher?",
+            "Answer": "No",
+            "Explanation": "The highest BLEU score is 40.4, which is below 41."
+        },
+        {
+            "Tag": "Unanswerable",
+            "Question": "What is the training method used for the en-fr-smt-rev system?",
+            "Answer": "Unanswerable",
+            "Explanation": "The table does not provide information about the training method for the systems."
+        },
+        {
+            "Tag": "Complex Reasoning",
+            "Question": "Which system has the maximum BLEU score and what is the change in BLEU score from 'en-fr-rnn-rev' to this system?",
+            "Answer": "en-es-trans-rev, 7.1 higher.",
+            "Explanation": "The maximum BLEU score is 40.4 for 'en-es-trans-rev', and the change from 'en-fr-rnn-rev' (33.3) to 'en-es-trans-rev' is 40.4 - 33.3 = 7.1."
+        }
+    ],
+    "94": [
+        {
+            "Tag": "Specific Cell Comparison",
+            "Question": "Which model has a higher Recall@10, VGS or SegMatch?",
+            "Answer": "VGS",
+            "Explanation": "VGS has a Recall@10 of 15%, while SegMatch has 12%."
+        },
+        {
+            "Tag": "Specific Condition Comparison",
+            "Question": "Which models achieved a Recall@10 of 10% or higher?",
+            "Answer": "VGS and SegMatch",
+            "Explanation": "Both VGS (15%) and SegMatch (12%) achieved Recall@10 of 10% or higher."
+        },
+        {
+            "Tag": "Difference Calculation",
+            "Question": "What is the difference in Recall@10 between VGS and SegMatch?",
+            "Answer": "3 percentage points",
+            "Explanation": "VGS has 15% and SegMatch has 12%, resulting in a difference of 3%."
+        },
+        {
+            "Tag": "Ratio Calculation",
+            "Question": "By what percentage is VGS's Recall@10 higher than SegMatch's?",
+            "Answer": "25%",
+            "Explanation": "The percentage increase from SegMatch (12%) to VGS (15%) is (15-12)/12 * 100 = 25%."
+        },
+        {
+            "Tag": "Change Analysis",
+            "Question": "What is the change in Median rank between VGS and SegMatch?",
+            "Answer": "0",
+            "Explanation": "Both VGS and SegMatch have the same Median rank of 17."
+        },
+        {
+            "Tag": "Trend Comparison",
+            "Question": "Which model has a better performance in Recall@10, VGS or Mean MFCC?",
+            "Answer": "VGS",
+            "Explanation": "VGS has a Recall@10 of 15%, while Mean MFCC has 0%."
+        },
+        {
+            "Tag": "Average/Sum Calculation",
+            "Question": "What is the average Recall@10 of the models listed?",
+            "Answer": "9%",
+            "Explanation": "The average Recall@10 is (15 + 12 + 0) / 3 = 9%."
+        },
+        {
+            "Tag": "Maximum/Minimum Identification",
+            "Question": "Which model achieved the lowest Recall@10?",
+            "Answer": "Mean MFCC",
+            "Explanation": "Mean MFCC has a Recall@10 of 0%, which is the lowest."
+        },
+        {
+            "Tag": "Negative Answer",
+            "Question": "Did any model achieve a Recall@10 of 20% or higher?",
+            "Answer": "No",
+            "Explanation": "The highest Recall@10 is 15% from VGS."
+        },
+        {
+            "Tag": "Unanswerable",
+            "Question": "What is the accuracy of the VGS model?",
+            "Answer": "Unanswerable",
+            "Explanation": "The table does not provide accuracy data for the models."
+        },
+        {
+            "Tag": "Complex Reasoning",
+            "Question": "What is the difference in Recall@10 percentage between the 'VGS' model and the 'SegMatch' model, and how does this difference compare to the trend of Recall@10 across the models?",
+            "Answer": "3%, with a decreasing trend from 'VGS' to 'SegMatch'.",
+            "Explanation": "The Recall@10 for 'VGS' is 15% and for 'SegMatch' is 12%, resulting in a difference of 3%. The trend shows a decrease in Recall@10 from 'VGS' to 'SegMatch'."
+        }
+    ],
+    "95": [
+        {
+            "Tag": "Specific Cell Comparison",
+            "Question": "Which model has a higher Recall@10, VGS or SegMatch?",
+            "Answer": "VGS",
+            "Explanation": "VGS has a Recall@10 of 27%, while SegMatch has a Recall@10 of 10%."
+        },
+        {
+            "Tag": "Specific Condition Comparison",
+            "Question": "Which models have a Median rank of 100 or lower?",
+            "Answer": "VGS and SegMatch",
+            "Explanation": "VGS has a Median rank of 6 and SegMatch has a Median rank of 37, both of which are 100 or lower."
+        },
+        {
+            "Tag": "Difference Calculation",
+            "Question": "What is the difference in Recall@10 between VGS and Audio2vec-U?",
+            "Answer": "22 percentage points",
+            "Explanation": "VGS has a Recall@10 of 27% and Audio2vec-U has 5%, resulting in a difference of 22 percentage points."
+        },
+        {
+            "Tag": "Ratio Calculation",
+            "Question": "By what percentage is VGS's Recall@10 higher than Chance's?",
+            "Answer": "Unanswerable",
+            "Explanation": "Chance's Recall@10 is 0%, making percentage calculation unfeasible."
+        },
+        {
+            "Tag": "Change Analysis",
+            "Question": "How does the Recall@10 change from Mean MFCC to VGS?",
+            "Answer": "26 percentage points increase",
+            "Explanation": "Mean MFCC has a Recall@10 of 1% and VGS has 27%, resulting in a 26 percentage points increase."
+        },
+        {
+            "Tag": "Trend Comparison",
+            "Question": "Which model shows a better performance trend in Recall@10, VGS or Audio2vec-C?",
+            "Answer": "VGS",
+            "Explanation": "VGS has a Recall@10 of 27%, while Audio2vec-C has only 2%, indicating a better performance trend for VGS."
+        },
+        {
+            "Tag": "Average/Sum Calculation",
+            "Question": "What is the average Recall@10 of the models listed?",
+            "Answer": "7.5%",
+            "Explanation": "The average Recall@10 is calculated as (27+10+5+2+1+0)/6=7.5%"
+        },
+        {
+            "Tag": "Maximum/Minimum Identification",
+            "Question": "Which model has the lowest Median rank?",
+            "Answer": "VGS",
+            "Explanation": "VGS has the lowest Median rank of 6 compared to other models."
+        },
+        {
+            "Tag": "Negative Answer",
+            "Question": "Are there any models with a Recall@10 of 30% or higher?",
+            "Answer": "No",
+            "Explanation": "The highest Recall@10 is 27% for VGS, which is below 30%."
+        },
+        {
+            "Tag": "Unanswerable",
+            "Question": "What is the performance of the models in a real-world scenario?",
+            "Answer": "Unanswerable",
+            "Explanation": "The table only provides synthetic evaluation results, not real-world performance data."
+        },
+        {
+            "Tag": "Complex Reasoning",
+            "Question": "What is the difference in Recall@10 scores between the best-performing model with a Median rank lower than that of Audio2vec, excluding the VGS model, and the VGS model itself?",
+            "Answer": "17%.",
+            "Explanation": "The SegMatch model, with a Median rank of 37 (lower than Audio2vec's Median rank of 105 and excluding the VGS model), has a Recall@10 score of 10%. The VGS model has a Recall@10 score of 27%. The difference is 27% - 10% = 17%."
+        }
+    ],
+    "96": [
+        {
+            "Tag": "Specific Cell Comparison",
+            "Question": "Which classifier has a more varied output in terms of word repetition, DAN or CNN?",
+            "Answer": "DAN",
+            "Explanation": "DAN repeats words with a higher sentiment value, while CNN does not repeat words."
+        },
+        {
+            "Tag": "Specific Condition Comparison",
+            "Question": "Which classifiers primarily employ <UNK> tokens in their output?",
+            "Answer": "RNN",
+            "Explanation": "The RNN primarily employs <UNK> tokens or repeats previous words."
+        },
+        {
+            "Tag": "Difference Calculation",
+            "Question": "What is the difference in the approach to masking between DAN and CNN?",
+            "Answer": "DAN masks out punctuation and determiners, while CNN masks out <UNK> tokens.",
+            "Explanation": "DAN uses class label indicative words for masking, whereas CNN uses determiners or prepositions."
+        },
+        {
+            "Tag": "Ratio Calculation",
+            "Question": "What is the ratio of changes in output between CNN and RNN?",
+            "Answer": "Unanswerable",
+            "Explanation": "The table does not provide specific numerical values to calculate a ratio."
+        },
+        {
+            "Tag": "Change Analysis",
+            "Question": "How does the output of DAN differ from that of RNN in terms of sentiment value?",
+            "Answer": "DAN has a stronger signal by repeating words with higher sentiment value.",
+            "Explanation": "DAN's approach allows it to emphasize sentiment more than RNN."
+        },
+        {
+            "Tag": "Trend Comparison",
+            "Question": "Which classifier shows less variability in its output, CNN or RNN?",
+            "Answer": "CNN",
+            "Explanation": "CNN has the least amount of changes in its output compared to RNN."
+        },
+        {
+            "Tag": "Average/Sum Calculation",
+            "Question": "What is the average sentiment value of the outputs from the classifiers?",
+            "Answer": "Unanswerable",
+            "Explanation": "The table does not provide specific sentiment values to calculate an average."
+        },
+        {
+            "Tag": "Maximum/Minimum Identification",
+            "Question": "Which classifier has the least amount of changes in its output?",
+            "Answer": "CNN",
+            "Explanation": "CNN does not repeat words and removes uninformative words."
+        },
+        {
+            "Tag": "Negative Answer",
+            "Question": "Are there any classifiers that do not use <UNK> tokens at all?",
+            "Answer": "No",
+            "Explanation": "All classifiers mentioned utilize <UNK> tokens in some capacity."
+        },
+        {
+            "Tag": "Unanswerable",
+            "Question": "What is the accuracy percentage of the classifiers?",
+            "Answer": "Unanswerable",
+            "Explanation": "The table does not provide any accuracy percentages for the classifiers."
+        },
+        {
+            "Tag": "Complex Reasoning",
+            "Question": "How does the performance of the RNN model compare to the CNN model in terms of their trends across the original and cleaned missing data?",
+            "Answer": "Unanswerable.",
+            "Explanation": "The RNN's performance trend indicates a greater increase in scores compared to the relatively stable performance of the CNN model."
+        }
+    ],
+    "97": [
+        {
+            "Tag": "Specific Cell Comparison",
+            "Question": "Which model has a higher increase in Nouns, RNN or DAN?",
+            "Answer": "DAN",
+            "Explanation": "DAN has an increase of +93 percentage points in Nouns, while RNN has +63."
+        },
+        {
+            "Tag": "Specific Condition Comparison",
+            "Question": "Which models have a decrease in DT?",
+            "Answer": "RNN and DAN",
+            "Explanation": "RNN has a decrease of -29 and DAN has -38 in DT."
+        },
+        {
+            "Tag": "Difference Calculation",
+            "Question": "What is the difference in the increase of Verbs between RNN and DAN?",
+            "Answer": "14 percentage points",
+            "Explanation": "DAN has an increase of +34 and RNN has +20, resulting in a difference of 34 - 20 = 14."
+        },
+        {
+            "Tag": "Ratio Calculation",
+            "Question": "By what percentage is the increase in Adj. for DAN higher than for RNN?",
+            "Answer": "164% higher",
+            "Explanation": "DAN's increase is +66 and RNN's is +25, so the ratio is (66-25)/25 * 100 = 164%."
+        },
+        {
+            "Tag": "Change Analysis",
+            "Question": "What is the change in Punct. for the CNN model?",
+            "Answer": "-14 percentage points",
+            "Explanation": "CNN shows a decrease of -14 in Punct."
+        },
+        {
+            "Tag": "Trend Comparison",
+            "Question": "Which model shows a larger increase in U, RNN or DAN?",
+            "Answer": "RNN",
+            "Explanation": "The U increment value of RNN was +82, which was greater than that of DAN's +16."
+        },
+        {
+            "Tag": "Average/Sum Calculation",
+            "Question": "What is the total change in Nouns across all models?",
+            "Answer": "153 percentage points",
+            "Explanation": "The total change is +63 (RNN) + 93 (DAN) + 0 (CNN) = 156."
+        },
+        {
+            "Tag": "Maximum/Minimum Identification",
+            "Question": "Which model has the highest increase in U?",
+            "Answer": "DAN",
+            "Explanation": "DAN has the highest increase of +82 in U."
+        },
+        {
+            "Tag": "Negative Answer",
+            "Question": "Are there any models that show an increase in Punct.?",
+            "Answer": "No",
+            "Explanation": "All models show a decrease in Punct."
+        },
+        {
+            "Tag": "Unanswerable",
+            "Question": "What is the overall accuracy of the models?",
+            "Answer": "Unanswerable",
+            "Explanation": "The table does not provide overall accuracy values for the models."
+        },
+        {
+            "Tag": "Complex Reasoning",
+            "Question": "What is the difference in the percentage of Nouns between the RNN and DAN models after fine-tuning, and how does this difference compare to the change in Verbs for the same models?",
+            "Answer": "30%, smaller at 14% for Verbs.",
+            "Explanation": "Nouns in RNN increased by +63% while in DAN it increased by +93%, resulting in a 30% difference. For Verbs, RNN increased by +20% and DAN by +34%, resulting in a 14% difference."
+        }
+    ],
+    "98": [
+        {
+            "Tag": "Specific Cell Comparison",
+            "Question": "Which model has a higher positive sentiment score change, DAN or RNN?",
+            "Answer": "DAN",
+            "Explanation": "DAN has a positive sentiment score change of +23.6, which is higher than RNN's +9.7."
+        },
+        {
+            "Tag": "Specific Condition Comparison",
+            "Question": "Which models have a positive sentiment score change greater than 20%?",
+            "Answer": "DAN and Flipped to Positive",
+            "Explanation": "DAN has a positive change of +23.6, and Flipped to Positive has +20.2."
+        },
+        {
+            "Tag": "Difference Calculation",
+            "Question": "What is the difference in positive sentiment score change between CNN and DAN?",
+            "Answer": "19.3 percentage points",
+            "Explanation": "DAN's score is +23.6 and CNN's is +4.3, so the difference is 23.6 - 4.3 = 19.3."
+        },
+        {
+            "Tag": "Ratio Calculation",
+            "Question": "By what percentage is the positive sentiment score change of DAN higher than that of RNN?",
+            "Answer": "143.5% higher",
+            "Explanation": "DAN's score is +23.6 and RNN's is +9.7, so the percentage increase is ((23.6 - 9.7) / 9.7) * 100 = 143.5%."
+        },
+        {
+            "Tag": "Change Analysis",
+            "Question": "What is the change in sentiment score for the Flipped to Negative condition compared to the original Negative score?",
+            "Answer": "24.6 percentage points",
+            "Explanation": "Flipped to Negative has +31.5 and original Negative has +6.9, so the change is 31.5 - 6.9 = 24.6."
+        },
+        {
+            "Tag": "Trend Comparison",
+            "Question": "Which model shows the largest increase in sentiment score when labels are flipped to positive?",
+            "Answer": "DAN",
+            "Explanation": "DAN shows an increase of +27.4, which is the highest among the models."
+        },
+        {
+            "Tag": "Average/Sum Calculation",
+            "Question": "What is the average positive sentiment score change across all models?",
+            "Answer": "13.2%",
+            "Explanation": "The average is calculated as (9.7 + 4.3 + 23.6) / 3 = 13.2%."
+        },
+        {
+            "Tag": "Maximum/Minimum Identification",
+            "Question": "Which model achieved the highest sentiment score change in the Flipped to Negative condition?",
+            "Answer": "RNN",
+            "Explanation": "RNN achieved the highest score change of +31.5 in the Flipped to Negative condition."
+        },
+        {
+            "Tag": "Negative Answer",
+            "Question": "Are there any models that achieved a negative sentiment score change?",
+            "Answer": "No",
+            "Explanation": "All sentiment score changes listed are positive."
+        },
+        {
+            "Tag": "Unanswerable",
+            "Question": "What is the total number of models analyzed in the table?",
+            "Answer": "Unanswerable",
+            "Explanation": "The table does not provide a total count of models."
+        },
+        {
+            "Tag": "Complex Reasoning",
+            "Question": "Which model shows the highest increase in positive sentiment score when comparing the changes from the original to the flipped to positive condition?",
+            "Answer": "+27.4",
+            "Explanation": "The DAN model shows the highest increase in positive sentiment score of +27.4 percentage points when comparing the original to the flipped to positive condition."
+        }
+    ],
+    "99": [
+        {
+            "Tag": "Specific Cell Comparison",
+            "Question": "Which class has the highest accuracy in the table?",
+            "Answer": "PubMed Conclusion",
+            "Explanation": "The accuracy for PubMed Conclusion is 99%, which is the highest among the listed classes."
+        },
+        {
+            "Tag": "Specific Condition Comparison",
+            "Question": "Which classes have an accuracy of 98% or higher?",
+            "Answer": "SST-2 Positive, SST-2 Negative, PubMed Objective",
+            "Explanation": "Both SST-2 Positive and SST-2 Negative have an accuracy of 98%, meeting the specified condition."
+        },
+        {
+            "Tag": "Difference Calculation",
+            "Question": "What is the difference in accuracy between the SST-2 Positive and PubMed Conclusion classes?",
+            "Answer": "1 percentage point",
+            "Explanation": "SST-2 Positive has an accuracy of 98% and PubMed Conclusion has 99%, resulting in a difference of 1 percentage point."
+        },
+        {
+            "Tag": "Ratio Calculation",
+            "Question": "What is the percentage increase in accuracy from SST-2 Negative to PubMed Conclusion?",
+            "Answer": "1.02% increase",
+            "Explanation": "The accuracy increases from 98% to 99%, which is a 1 percentage point increase, approximately 1.02% relative to 98%."
+        },
+        {
+            "Tag": "Change Analysis",
+            "Question": "How does the accuracy of the SIFT terms compare across the classes?",
+            "Answer": "SIFT terms have consistent accuracy of 98% for SST-2 classes and 99% for PubMed Conclusion.",
+            "Explanation": "The SIFT accuracy remains stable at 98% for SST-2 Positive and Negative, while it is higher at 99% for PubMed Conclusion."
+        },
+        {
+            "Tag": "Trend Comparison",
+            "Question": "Which class shows a higher correlation with PMI terms, SST-2 Positive or PubMed Objective?",
+            "Answer": "SST-2 Positive",
+            "Explanation": "SST-2 Positive has a correlation of 0.486, which is higher than the 0.398 correlation for PubMed Objective."
+        },
+        {
+            "Tag": "Average/Sum Calculation",
+            "Question": "What is the average accuracy of the classes listed in the table?",
+            "Answer": "98.25%",
+            "Explanation": "The average accuracy is calculated as (98% + 98% + 98% + 99%) / 4 = 98.25%."
+        },
+        {
+            "Tag": "Maximum/Minimum Identification",
+            "Question": "What is the minimum correlation value among the classes listed?",
+            "Answer": "0.00089",
+            "Explanation": "The minimum correlation value is 0.00089 for the PubMed Conclusion class."
+        },
+        {
+            "Tag": "Negative Answer",
+            "Question": "Are there any classes with an accuracy of 100%?",
+            "Answer": "No",
+            "Explanation": "None of the classes listed in the table achieved an accuracy of 100%."
+        },
+        {
+            "Tag": "Unanswerable",
+            "Question": "What is the number of SIFT terms used in the analysis?",
+            "Answer": "Unanswerable",
+            "Explanation": "The table does not provide information on the number of SIFT terms used."
+        },
+        {
+            "Tag": "Complex Reasoning",
+            "Question": "Between the SST-2 and PubMed datasets, which dataset shows a larger discrepancy in accuracy between its classes, and by how much?",
+            "Answer": "PubMed with a difference of 1%.",
+            "Explanation": "The SST-2 dataset’s Positive and Negative classes have the same accuracy (98%), so the discrepancy is 98%−98%=0%. PubMed Objective has 98% accuracy, and PubMed Conclusion has 99% accuracy, with a discrepancy of 99%−98%=1%. The SST-2 dataset shows no discrepancy, while PubMed shows a 1% discrepancy, so PubMed has the larger discrepancy."
+        }
+    ]
+}

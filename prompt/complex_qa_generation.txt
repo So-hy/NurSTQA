@@ -1,0 +1,82 @@
+You are an AI assistant that generates complex question and answer (QA) pairs based on table data. Each question should naturally integrate two numerical reasoning types selected from two different categories.
+
+**Categories and Tags** :
+
+1. Direct Value Comparison:
+
+- Specific Cell Comparison: Comparing values of two or more cells to determine magnitude, equality, etc.
+- Specific Condition Comparison: Comparing or identifying data or values that meet specific conditions (range, logical conditions, etc.).
+
+2. Ratio and Difference Calculation:
+
+- Difference Calculation: Calculating the difference between two values.
+- Ratio Calculation: Calculating the ratio or percentage between two values.
+
+3. Pattern and Trend Analysis:
+
+- Change Analysis: Analyzing the trend of increase/decrease in a specific column or row.
+- Trend Comparison: Comparing trends across multiple columns/rows or analyzing differences between patterns.
+
+4. Data Aggregation and Summary:
+
+- Average/Sum Calculation: Deriving aggregated results such as averages or sums from table data.
+- Maximum/Minimum Identification: Identifying the maximum or minimum value in a specific column or row.
+
+**Examples** :
+
+Example 1 (Category [1, 2] combination - Specific Condition Comparison + Difference Calculation):
+
+Question: "Among the models with a BLEU score of 40 or higher, what is the difference in CIDEr scores between 'TGen' and 'TGen+'?"
+Answer: "0.0523."
+
+Example 2 (Category [1, 3] combination - Specific Cell Comparison + Change Analysis):
+
+Question: "By how many percentage points did the Wrong error rate of the 'TGen+' model decrease when changing from Original data to Cleaned missing data?"
+Answer: "Decreased by 0.02%."
+
+Example 3 (Category [2, 3] combination - Ratio Calculation + Trend Comparison):
+
+Question: "When changing from Original to Cleaned missing data, by what factor is the SER reduction rate of 'TGen' series models greater than that of the 'SC-LSTM' model?"
+Answer: "Approximately 2.1 times."
+
+Example 4 (Category [3, 4] combination - Trend Comparison + Maximum/Minimum Identification):
+
+Question: "Among the models that show a consistent increasing trend in BLEU scores from Original to Cleaned missing data, which model has the highest final BLEU score?"
+Answer: "The 'TGen+' model."
+
+Example 5 (Category [2, 4] combination - Difference Calculation + Average/Sum Calculation):
+
+Question: "In the Cleaned missing data, what is the difference between the average BLEU score of 'TGen' series models and the BLEU score of the 'SC-LSTM' model?"
+Answer: "17.88 points."
+
+**Instructions**:
+
+Based on the table data below, please create QA pairs for the following three category combinations:
+
+{{combination_instructions}}
+
+For each QA pair:
+
+- Select one tag from each category corresponding to the category numbers in the combination.
+- For example, if the combination is [1, 2], select one tag from Category 1 and one from Category 2.
+- Create a question that naturally integrates both numerical reasoning types from the selected tags.
+- The question should be a single question that seamlessly incorporates both reasoning types.
+- The answer should be concise and directly derived from the table data.
+- **Provide your results in the following format and do not include any additional text outside of the JSON**:
+
+[
+  {"Tag": "...", "Question": "...", "Answer": "...", "Explanation": "..."},
+  {"Tag": "...", "Question": "...", "Answer": "...", "Explanation": "..."},
+  {"Tag": "...", "Question": "...", "Answer": "...", "Explanation": "..."}
+]
+
+- The list should contain three dictionaries, one for each category combination.
+- In the "Tag" field, specify the two selected tags for that QA pair.
+- The "Explanation" field should briefly describe how you arrived at the answer using the table data.
+
+Table Data:
+
+Table Caption: {{Table_Caption}}
+Table Columns: {{Table_Column}}
+Table Content: {{Table_Content}}
+Table Explanation: {{Table_Explain}}

@@ -1,0 +1,42 @@
+You are an AI assistant trained to evaluate the quality of question-answer (QA) pairs based on provided table data. For each QA pair, perform the following evaluations:
+
+1. Correctness Check: Determine whether the answer correctly addresses the question based on the table data. Respond with "Yes" or "No".
+2. Relevance Check: Assess whether the question is relevant to the table data. Respond with "Yes" or "No".
+3. Utility Evaluation: Rate how useful the question is for analyzing the table on a scale from 1 to 5, where 1 is not useful at all and 5 is extremely useful.
+4. Tag Appropriateness: Rate how appropriate the question is for the given tag on a scale from 1 to 5, where 1 is not appropriate and 5 is highly appropriate.
+
+
+Instructions:
+- Provide a JSON object with the following structure:
+
+    {
+      "Correctness Check": "Yes" or "No",
+      "Relevance Check": "Yes" or "No",
+      "Utility Evaluation": X,
+      "Tag Appropriateness": Y
+    }
+
+- Replace `X` with an integer between 1 and 5.
+- Replace `Y` with an integer between 1 and 5.
+- Do not include any additional text or explanations outside of the JSON object.
+
+---
+
+Table Data:
+{{Table_Caption}}
+
+{{Table_Column}}
+
+{{Table_Content}}
+
+{{Table_Explain}}
+
+QA Pair:
+Tag: {{Tag}}
+Question: {{Question}}
+Answer: {{Answer}}
+Explanation: {{Explanation}}
+
+
+**Evaluation:**
+{ "Correctness Check": "", "Relevance Check": "", "Utility Evaluation": ,"Tag Appropriateness": }

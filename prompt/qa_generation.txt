@@ -1,0 +1,106 @@
+You are an AI assistant tasked with generating concise question-answer pairs based on a given table. Each question should focus on important data within the table and align with one of the specified categories. Provide the answers in a simple format suitable for QA tasks. If a question cannot be answered using the table data, respond with "Unanswerable".
+
+Category Descriptions:
+
+Direct Value Comparison:
+Specific Cell Comparison: Directly compare two or more specific values from the table to determine which is higher, lower, or equal.
+Specific Condition Comparison: Identify and compare data points that meet specific predefined conditions or criteria within the table.
+
+Ratio and Difference Calculation:
+Difference Calculation: Compute the absolute difference between two values to quantify the change.
+Ratio Calculation: Calculate the relative difference or percentage change between two values to understand the proportionate change.
+
+Pattern and Trend Analysis:
+Change Analysis: Examine how a single variable's value increases or decreases within the table.
+Trend Comparison: Compare the change patterns of multiple variables or across different models to identify relative trends.
+
+Data Aggregation and Summary:
+Average/Sum Calculation: Calculate the average or sum of specific data points to provide a summary metric.
+Maximum/Minimum Identification: Identify the highest or lowest values within a particular column or category.
+
+Others:
+Negative Answer: Provide a negative response ("No") when certain conditions are not met within the table data.
+Unanswerable: Indicate that a question cannot be answered using the provided table data by responding with "Unanswerable."
+
+Examples:
+
+Category 1: Direct Value Comparison
+
+a) Specific Cell Comparison
+Question: Which model has a higher Overall performance when trained on COPA data, BERT-large-FT or RoBERTa-large-FT?
+Answer: RoBERTa-large-FT.
+
+b) Specific Condition Comparison
+Question: Which models achieved an accuracy of 80% or higher in the Easy section?
+Answer: BERT-large-FT and RoBERTa-large-FT.
+
+Category 2: Ratio and Difference Calculation
+
+a) Difference Calculation
+Question: What is the difference in Overall performance between RoBERTa-large-FT and the previous best model sasaki-etal-2017-handling?
+Answer: 16.3 percentage points.
+
+b) Ratio Calculation
+Question: By what percentage is RoBERTa-large-FT's performance in the Hard section higher than BERT-large-FT's?
+Answer: Approximately 18.6% higher.
+
+Category 3: Pattern and Trend Analysis
+
+a) Change Analysis
+Question: What is the performance difference between the Easy and Hard sections for the sasaki-etal-2017-handling model?
+Answer: 6.3 percentage points.
+
+b) Trend Comparison
+Question: Which model has a larger performance gap between the Easy and Hard sections, BERT-large-FT or RoBERTa-large-FT?
+Answer: BERT-large-FT.
+
+Category 4: Data Aggregation and Summary
+
+a) Average/Sum Calculation
+Question: What is the average Overall performance of previous models using the PMI method?
+Answer: 66.2%.
+
+b) Maximum/Minimum Identification
+Question: Which model achieved the highest accuracy in the Easy section?
+Answer: RoBERTa-large-FT.
+
+Category 5: Others
+
+a) Negative Answer
+Question: Are there any models that achieved an accuracy of 90% or higher in the Hard section?
+Answer: No, there are none.
+
+b) Unanswerable
+Question: What is the number of parameters in the BERT-large-FT model?
+Answer: Unanswerable.
+
+Table Data:
+Table Caption : {{Table_Caption}}
+
+Table Headers : {{Table_Column}}
+
+Table Contents : {{Table_Content}}
+
+Table Explanation : {{Table_Explain}}
+
+Task:
+Generate new question-answer pairs based on the table above, covering different subcategories. Each question should analyze important data from the table and align with one of the specified subcategories. Provide the answers in the following JSON format:
+
+[
+  {"Tag": "...", "Question": "...", "Answer": "...", "Explanation": "..."},
+  ...
+]
+
+Guidelines:
+
+- Tag Field: Each QA pair should include a "Tag" field that specifies the subcategory it belongs to (e.g., "Specific Cell Comparison", "Ratio Calculation").
+- Subcategory Alignment: Ensure that each question aligns with one of the defined subcategories.
+- Focus on Important Data: Questions should delve into significant insights, comparisons, trends, or summaries within the table.
+- Concise Answers: Answers should be brief and direct, suitable for QA task performance measurement.
+- Handling Unanswerable Questions: If a question cannot be answered using the table data, set the "Answer" field to "Unanswerable" and provide an appropriate "Explanation".
+- JSON Structure: Maintain the specified JSON structure to ensure consistency and ease of parsing.
+
+Additional Guidelines for Explanation Field:
+- Specify the referenced rows and columns, and briefly explain why the answer is correct.
+Example: "Column: Inference, Rows: Batch size 1, 10. Recur meets the condition with 217.9 > 50, while Iter does not (49.3 < 50)."
+- For unanswered questions, explain why briefly, e.g., "Data not available."

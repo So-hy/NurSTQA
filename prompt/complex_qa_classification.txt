@@ -1,0 +1,60 @@
+### Task Description:
+Using the **Numerical Reasoning Categories (Category Descriptions)** and the **Table Information (Table Data)** provided below, evaluate each QA in the set based on the given criteria. Then, select the best QA and provide its evaluation details in JSON format.
+
+### Evaluation Criteria:
+1. **Was the QA generated from the table?**
+   - Answer Yes/No and briefly explain your reasoning.
+2. **Is the answer correct for the given question?**
+   - Answer Yes/No and briefly explain your reasoning.  
+   → If either criterion 1 or 2 is No, the QA is disqualified.
+3. **Does the question require both numerical reasoning types as specified in the tag?**
+   - Answer Yes/No and briefly explain your reasoning.
+4. **How important is this QA for analyzing the table?**
+   - Rate the importance on a scale of 1–10 and briefly explain your reasoning.
+
+### Numerical Reasoning Categories (Category Descriptions):
+**Direct Value Comparison:**
+- Specific Cell Comparison: Directly compare two or more specific values from the table to determine which is higher, lower, or equal.
+- Specific Condition Comparison: Identify and compare data points that meet specific predefined conditions or criteria within the table.
+
+**Ratio and Difference Calculation:**
+- Difference Calculation: Compute the absolute difference between two values to quantify the change.
+- Ratio Calculation: Calculate the relative difference or percentage change between two values to understand the proportionate change.
+
+**Pattern and Trend Analysis:**
+- Change Analysis: Examine how a single variable's value increases or decreases within the table.
+- Trend Comparison: Compare the change patterns of multiple variables or across different models to identify relative trends.
+
+**Data Aggregation and Summary:**
+- Average/Sum Calculation: Calculate the average or sum of specific data points to provide a summary metric.
+- Maximum/Minimum Identification: Identify the highest or lowest values within a particular column or category.
+
+### Table Information (Table Data):
+- **Table Caption**: {{Table_Caption}}
+- **Table Headers**: {{Table_Column}}
+- **Table Contents**: {{Table_Content}}
+- **Table Explanation**: {{Table_Explain}}
+
+### QA Set:
+{{QA_Data}}
+
+### Output Format:
+Output the result as a JSON object with the following structure:
+```json
+{
+  "selected_qa_number": (1, 2, or 3),
+  "reason": {
+    "criterion_1": {"pass": "Yes" or "No", "explanation": "Your explanation here"},
+    "criterion_2": {"pass": "Yes" or "No", "explanation": "Your explanation here"},
+    "criterion_3": {"pass": "Yes" or "No", "explanation": "Your explanation here"},
+    "criterion_4": {"score": 1-10, "explanation": "Your explanation here"}
+  }
+}
+
+### Notes for GPT:
+- Evaluate all QA items individually.
+- Disqualify any QA that fails **criterion 1** or **criterion 2**.
+- If multiple QA items pass these criteria, use **criterion 3** as the tiebreaker.
+- If there is still a tie, select the QA with the highest **criterion 4** score.
+- Only output the evaluation for the **selected QA**.
+

@@ -1,0 +1,10 @@
+Question: {{Question}}
+Generated Answer: {{Generated Answer}}
+Expected Answer: {{Expected Answer}}
+
+Task: Compare the Generated Answer and Expected Answer based on the Question provided.
+1. Do they refer to the same factual information or meaning, even if their format or style differs? Ignore differences in format unless they change the factual meaning.
+2. If the answer is "No", briefly explain why they differ.
+
+Answer:
+{Answer: Yes/No, Explanation:}

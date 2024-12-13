@@ -1,0 +1,6 @@
+Please refer to the table, caption, and description below to answer the question. Provide only the essential answer in the shortest possible form. no units, extra words or explanations.
+
+Table: {{Table}}
+Question : {{Question}}
+
+Answer:
